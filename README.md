@@ -1,3 +1,42 @@
+# WDIConf 2016
+
+## Workload
+
+### Pre rails (Partials and Static Layout)
+- Divided up sections for the hero, information, booking, project sections and a booking page.
+- Layout done in balsamiq.
+
+### Git control
+- Decided on having a gitlord with forked projects that would send pull requests to minimize merge problems.
+- Added rails project.
+- Added partials.
+- Fixed up gitignore.
+
+### Rails backend
+- Added presenter models, routes and database.
+
+### CSS Frontend
+- Added a carousel at the top of the page to display different parts of each project.
+- Added hero css.
+- First version wifreframs done up in bootstrap.
+- Used css keyframes to make neon heading
+
+## Layouts
+- Opted for a single page layout (minus the booking page) with a static header.
+- Divided the index page into partials and divvied up the front end to a few members.
+
+## Technologies
+- Rails
+- Javascript
+- CSS
+
+
+## Resources
+- Added profile pictures.
+
+
+===
+
 # WDIConf is REAL(TM)
 ---------------------
 Jason is here
