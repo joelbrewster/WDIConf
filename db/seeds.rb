@@ -92,6 +92,9 @@ Presenter.create([
       [ "Linux" , "<i class='devicon-linux-plain'></i>" ],
       [ "Vim" , "<i class='devicon-vim-plain'></i>" ]
     ],
+    social_media: "https://au.linkedin.com/in/joelbrewster",
+    presenter_github: "https://github.com/joelbrewster"
+  ],
   [
     presenter_name: "Will Guan",
     presenter_title: "Full Stack Web Developer",
