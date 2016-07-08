@@ -1,0 +1,40 @@
+.navbar {
+	min-height: 70px;
+	margin-bottom: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 999;
+}
+.jumbotron {
+	height: 550px;
+	margin-top: 70px;
+	padding-bottom: 0;
+}
+.navbar-brand {
+	font-size: 30px;
+	margin-top: 10px;
+}
+.navbar-nav {
+	margin-left: 50px;
+	margin-top: 10px;
+}
+.conf-info {
+	height: 500px;
+}
+.pix-border {
+	border: 1px solid white;
+}
+.navbar-right {
+	margin-top: 15px;
+}
+footer {
+	width: 100%
+}
+
+@media (max-width: 768px) {
+.navbar-right {
+	margin-top: 0;
+	margin-bottom: 15px;
+}
+}
