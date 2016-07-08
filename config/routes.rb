@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+
+get '/presenters/new' => 'presenters#new_presenter'
+post '/presenters/create' => 'presenters#create_presenters'
+get '/presenters/:id/edit' => 'presenters#edit_presenter'
+patch 'presenters/:id/update' => 'presenters#update_presenter'
+get 'presenters/:id/delete' => 'presenters#delete_presenter'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
