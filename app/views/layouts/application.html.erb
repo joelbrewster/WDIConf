@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>WDIConf</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
+    <head>
+        <title>WDIConf</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>WDI conf---k</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => false %>
+        <%= javascript_include_tag 'application', 'data-turbolinks-track' => false %>
+        <%= csrf_meta_tags %>
+    </head>
+    <body>
 
-<%= yield %>
-
-</body>
+        <%= yield %>
+        
+        <script src="js/jquery-1.11.2.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
 </html>
