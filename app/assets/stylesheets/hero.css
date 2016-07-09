@@ -1,16 +1,8 @@
-h3 {
-  display: inline-block;
-  padding: 10px;
-  background: #B9121B;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-}
-
-.full-screen {
-  background-size: cover;
+/*.full-screen {
   background-position: center;
   background-repeat: no-repeat;
-}
+  background-size: cover;
+}*/
 
 .left, .carousel-control, .right, .carousel-control {
   z-index: 500;
@@ -20,8 +12,14 @@ h3 {
   background: rgba(0, 0, 0, 0.7);
   height: 100vh;
 }
+#mycarousel {
+  height: 100vh;
+}
 .item {
   z-index: -20;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /*------------------NEON TEXT------------------*/
