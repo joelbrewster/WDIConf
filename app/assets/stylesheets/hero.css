@@ -2,7 +2,22 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  min-height: 900px;
+  max-height: 900px;
+  width: 100%;
 }*/
+
+/*#mycarousel {
+  min-height: 900px;
+  max-height: 900px;
+  width: 100%
+}*/
+
+.hero-img {
+  min-height: 900px;
+  max-height: 900px;
+  width: 100%;
+}
 
 .left, .carousel-control, .right, .carousel-control {
   z-index: 500;
@@ -10,16 +25,13 @@
 
 #overlay {
   background: rgba(0, 0, 0, 0.7);
-  height: 100vh;
 }
-#mycarousel {
-  height: 100vh;
-}
+
 .item {
   z-index: -20;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  min-height: 900px;
+  max-height: 900px;
+  width: 100%;
 }
 
 /*------------------NEON TEXT------------------*/
@@ -27,7 +39,7 @@ p#hero-heading {
   text-align: center;
   font-size: 60px;
   margin: 20px 0 20px 0;
-  margin-top: 350px;
+  margin-top: 410px;
   color: #fff;
 
   -webkit-transition: all 0.5s;
