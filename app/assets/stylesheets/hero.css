@@ -36,9 +36,8 @@
 
 /*------------------NEON TEXT------------------*/
 p#hero-heading {
-  text-align: center;
   font-size: 60px;
-  margin: 20px 0 20px 0;
+  margin: auto 0 20px 0;
   margin-top: 410px;
   color: #fff;
 
