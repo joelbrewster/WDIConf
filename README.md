@@ -48,6 +48,11 @@
 ![Booking page ideas](./app/assets/images/layout8.jpg)
 
 
+## Branding brainstorming
+
+![First logo](./app/assets/images/WDICONF.png)
+
+
 ===
 
 # WDIConf is REAL(TM)
