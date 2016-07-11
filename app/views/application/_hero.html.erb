@@ -1,30 +1,38 @@
-<div class="jumbotron text-center">
-  <div class="container">
+
+<div class="hero-container">
 
 <div id="overlay">
     <div id="mycarousel" class="carousel slide" data-ride="carousel">
 
-          <p id="hero-heading">WDI CONF 2016</p>
+          <div class="logo-container">
+          <%= image_tag("WDICONF.png", alt: "WDI Conference logo", class: "wdi7conference-logo") %>
+          <%# <img class="wdi7conference-logo" src="http://i.imgur.com/T0QKTap.png" alt=""> %>
+          </div>
+
+          <!-- <p id="hero-heading">WDI CONF 2016</p> -->
 
           <!-- Wrapper for slides -->
           <div class="carousel-inner" role="listbox">
-            <div class="item">
-                <img src="http://cdn.pcwallart.com/images/japan-people-wallpaper-4.jpg" data-color="lightblue" alt="First Image">
+            <div class="item active">
+
+                <%= image_tag("cityimages/city1.jpg", alt: "First Image", class: "hero-img") %>
+                <%# <img class="hero-img" src="http://cdn.pcwallart.com/images/japan-people-wallpaper-4.jpg" alt="First Image"> %>
+            </div>
+            <div class="item ">
+                <%= image_tag("cityimages/pulseimage.jpg", alt: "Second Image", class: "hero-img") %>
+                <%# <img class="hero-img" src="https://s32.postimg.org/kfa4ibjlh/pulse2.jpg" alt="Second Image"> %>
+            </div>
+            <div class="item ">
+                <%= image_tag("cityimages/city2.jpg", alt: "Third Image", class: "hero-img") %>
+                <%# <img class="hero-img" src="http://4.bp.blogspot.com/-tcuvIJN_w5o/U0wCDniTboI/AAAAAAAAEgE/GyN0W8SEE3Q/s1600/1-mall.jpg" alt="Third Image"> %>
+            </div>
+            <div class="item ">
+                <%= image_tag("cityimages/city3.jpg", alt: "Fourth Image", class: "hero-img") %>
+                <%# <img class="hero-img" src="http://gethdpic.com/wp-content/uploads/2013/12/Disco-Lights-Wallpaper-For-Your-IMac.jpg" alt="Fourth Image"> %>
             </div>
             <div class="item">
-                <img src="https://s32.postimg.org/kfa4ibjlh/pulse2.jpg" data-color="firebrick" alt="Second Image">
-            </div>
-            <div class="item">
-                <img src="http://4.bp.blogspot.com/-tcuvIJN_w5o/U0wCDniTboI/AAAAAAAAEgE/GyN0W8SEE3Q/s1600/1-mall.jpg" data-color="violet" alt="Third Image">
-            </div>
-            <div class="item">
-                <img src="http://gethdpic.com/wp-content/uploads/2013/12/Disco-Lights-Wallpaper-For-Your-IMac.jpg" data-color="lightgreen" alt="Fourth Image">
-            </div>
-            <div class="item">
-                <img src="https://s32.postimg.org/i8y63y91h/ws_City_life_at_night_2560x1600.jpg" data-color="lightgreen" alt="Fourth Image">
-            </div>
-            <div class="item">
-                <img src="http://www.officialpsds.com/images/stocks/Night-City-Life-stock-4-stock2420.jpg" data-color="lightgreen" alt="Fourth Image">
+                <%= image_tag("cityimages/city4.jpg", alt: "Fifth Image", class: "hero-img") %>
+                <%# <img class="hero-img" src="https://s32.postimg.org/i8y63y91h/ws_City_life_at_night_2560x1600.jpg" alt="Fourth Image"> %>
             </div>
           </div>
 
@@ -40,5 +48,5 @@
 
     </div>
 </div>
-</div>
+
 </div>

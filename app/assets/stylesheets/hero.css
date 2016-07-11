@@ -1,15 +1,22 @@
-h3 {
-  display: inline-block;
-  padding: 10px;
-  background: #B9121B;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-}
-
-.full-screen {
-  background-size: cover;
+/*.full-screen {
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 900px;
+  max-height: 900px;
+  width: 100%;
+}*/
+
+/*#mycarousel {
+  min-height: 900px;
+  max-height: 900px;
+  width: 100%
+}*/
+
+.hero-img {
+  min-height: 900px;
+  max-height: 900px;
+  width: 100%;
 }
 
 .left, .carousel-control, .right, .carousel-control {
@@ -18,18 +25,31 @@ h3 {
 
 #overlay {
   background: rgba(0, 0, 0, 0.7);
-  height: 100vh;
 }
+
 .item {
   z-index: -20;
+  min-height: 900px;
+  max-height: 900px;
+  width: 100%;
+}
+
+.wdi7conference-logo{
+  margin-top: 320px;
+  width: 45%;
+  height: 45%;
+}
+.logo-container{
+  text-align: center;
+  width: 100%;
+  position: absolute;
 }
 
 /*------------------NEON TEXT------------------*/
 p#hero-heading {
-  text-align: center;
   font-size: 60px;
-  margin: 20px 0 20px 0;
-  margin-top: 350px;
+  margin: auto 0 20px 0;
+  margin-top: 450px;
   color: #fff;
 
   -webkit-transition: all 0.5s;
