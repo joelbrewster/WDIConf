@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+# installed by NOC for annotating the models with information about the schema
+gem 'annotate' # see https://github.com/ctran/annotate_models
+
 gem 'pg'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
