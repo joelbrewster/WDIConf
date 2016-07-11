@@ -34,11 +34,22 @@
   width: 100%;
 }
 
+.wdi7conference-logo{
+  margin-top: 320px;
+  width: 45%;
+  height: 45%;
+}
+.logo-container{
+  text-align: center;
+  width: 100%;
+  position: absolute;
+}
+
 /*------------------NEON TEXT------------------*/
 p#hero-heading {
   font-size: 60px;
   margin: auto 0 20px 0;
-  margin-top: 410px;
+  margin-top: 450px;
   color: #fff;
 
   -webkit-transition: all 0.5s;
