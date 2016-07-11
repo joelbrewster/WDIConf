@@ -3,7 +3,7 @@
 ## Workload
 ### Pre rails (Partials and Static Layout).
 - Divided up sections for the hero, information, booking, project sections and a booking page.
-- Layout done in balsamiq.
+- Layout done in Balsamiq.
 
 ### Git control
 - Decided on having a gitlord with forked projects that would send pull requests to minimize merge problems.
@@ -13,30 +13,40 @@
 
 ### Rails backend
 - Added presenter models, routes and database.
+- Added date information to the databse.
+```
+puts Time.new(2016, 07, 17, 10, 0, 0, "+10:00")
+```
+- Added gem annotate.
+```
+Annotates Rails/ActiveRecord Models, routes, fixtures, and others based on the database schema.
+```
 
 ### CSS Frontend
 - Added a carousel at the top of the page to display different parts of each project.
 - Added hero css.
-- First version wifreframs done up in bootstrap.
+- First version wifreframes done up in bootstrap.
 - Used css keyframes to make neon heading
+- Decided to change the sponsors icons to load from grayscale initially to colored on mouse hover.
 
-## Layouts
+### Layouts
 - Opted for a single page layout (minus the booking page) with a static header.
 - Divided the index page into partials and divvied up the front end to a few members.
 
-## Resources
+### Resources
 - Took profile pictures, resized, compressed and converted to black and white.
+- First logo done in Sketch.
 
-## Technologies
+### Technologies
 - Rails
 - Javascript
 - CSS
 
-## Resources
+### Resources
 - Added profile pictures.
 
 
-## Whiteboard brainstorming
+### Whiteboard brainstorming
 
 ![Role deligation](./app/assets/images/layout1.jpg)
 ![Initial layout overview](./app/assets/images/layout2.jpg)
@@ -48,8 +58,11 @@
 ![Booking page ideas](./app/assets/images/layout8.jpg)
 
 
-## Branding brainstorming
+## Seed brainstorming
+- Had the presenters as arrays initially then changed them to objects.
+- Thought about changing the presenter_skills to seperate objects later if we have time.
 
+## Branding brainstorming
 ![First logo](./app/assets/images/WDICONF.png)
 
 
