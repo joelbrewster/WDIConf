@@ -1,8 +1,7 @@
 # WDIConf 2016
 
 ## Workload
-
-### Pre rails (Partials and Static Layout)
+### Pre rails (Partials and Static Layout).
 - Divided up sections for the hero, information, booking, project sections and a booking page.
 - Layout done in balsamiq.
 
@@ -25,14 +24,28 @@
 - Opted for a single page layout (minus the booking page) with a static header.
 - Divided the index page into partials and divvied up the front end to a few members.
 
+## Resources
+- Took profile pictures, resized, compressed and converted to black and white.
+
 ## Technologies
 - Rails
 - Javascript
 - CSS
 
-
 ## Resources
 - Added profile pictures.
+
+
+## Whiteboard brainstorming
+
+![Role deligation](./app/assets/images/layout1.jpg)
+![Initial layout overview](./app/assets/images/layout2.jpg)
+![Booking page idea](./app/assets/images/layout3.jpg)
+![Model brainstorm](./app/assets/images/layout4.jpg)
+![Model brainstorm](./app/assets/images/layout5.jpg)
+![File tree](./app/assets/images/layout6.jpg)
+![Bootstrap style layout](./app/assets/images/layout7.jpg)
+![Booking page ideas](./app/assets/images/layout8.jpg)
 
 
 ===
