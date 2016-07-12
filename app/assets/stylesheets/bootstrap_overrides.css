@@ -13,7 +13,7 @@
 }
 .navbar-brand {
 	font-size: 30px;
-	margin-top: 10px;
+	margin-top: -5px;
 }
 .navbar-nav {
 	margin-left: 50px;
@@ -31,10 +31,67 @@
 footer {
 	width: 100%
 }
+.projects-slider-height{
+	height: 500px;
+}
+.carousel-control.left, .carousel-control.right {
+	background-image: none;
+}
+.speaker {
+	border-radius: 5px 50px 5px;
+	height: auto;
+	width: 500px;
+	margin-bottom: 40px;
+}
+
+.chip {
+  display: inline-block;
+  height: 32px;
+  font-size: 13px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.6);
+  line-height: 32px;
+  padding: 0 12px;
+  border-radius: 16px;
+  background-color: #e4e4e4;
+}
+
+.chip img {
+  float: left;
+  margin: 0 8px 0 -12px;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+}
 
 @media (max-width: 768px) {
 .navbar-right {
 	margin-top: 0;
 	margin-bottom: 15px;
 }
+
+.projects-slider-height{
+	height: 500px;
+}
+}
+
+// this css is actual magic that provides spakles along with magic.js
+.sparkley {
+  background: lighten( $buttonBackground , 10% );
+  color: $buttonColor;
+  border: none;
+
+  padding: 16px 36px;
+  font-weight: normal;
+
+  border-radius: 3px;
+  transition: all 0.25s ease;
+
+  box-shadow: 0 38px 32px -23px black;
+  margin: 0 1em 1em;
+
+  &:hover {
+    background: $buttonBackground;
+    color: transparentize( $buttonColor,0.8 );
+  }
 }

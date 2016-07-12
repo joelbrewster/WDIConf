@@ -11,7 +11,7 @@
 - Added partials.
 - Fixed up gitignore.
 
-### Rails backend
+### Rails, database and backend
 - Added presenter models, routes and database.
 - Added date information to the databse.
 ```
@@ -21,6 +21,15 @@ puts Time.new(2016, 07, 17, 10, 0, 0, "+10:00")
 ```
 Annotates Rails/ActiveRecord Models, routes, fixtures, and others based on the database schema.
 ```
+- Project time examples from [Stack overflow](http://stackoverflow.com/questions/5474164/rails-seeding-database-data-and-date-formats).
+
+```
+startDate  => DateTime.new(2009,9,1,17)
+```
+- For the countdown timer we used [Countdown.js](http://countdownjs.org/).
+
+### Google Maps integration
+- Created a hardcoded address map with google maps from [google developers documentation](https://developers.google.com/maps/documentation/distance-matrix/intro#DistanceMatrixResponses).
 
 ### CSS Frontend
 - Added a carousel at the top of the page to display different parts of each project.
@@ -29,7 +38,7 @@ Annotates Rails/ActiveRecord Models, routes, fixtures, and others based on the d
 - Used css keyframes to make neon heading
 - Decided to change the sponsors icons to load from grayscale initially to colored on mouse hover.
 - Changed using wider logos with text (different width too) to just using squared logos.
-- Added some images from ![here](https://www.behance.net/laylow) to link with the synthwave/synthpop/cyberpunk theme.
+- Added some images from [here](https://www.behance.net/laylow) to link with the synthwave/synthpop/cyberpunk theme.
 
 ### Layouts
 - Opted for a single page layout (minus the booking page) with a static header.

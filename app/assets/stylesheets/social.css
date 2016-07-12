@@ -1,0 +1,145 @@
+/*.social-container {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}*/
+
+.section-container {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  display: table;
+  margin-left: 9%;
+}
+
+.arch-container {
+  padding: 0 10%;
+  display: table-cell;
+  /*vertical-align: middle;*/
+}
+
+@media only screen and (max-width: 650px), only screen and (min-width: 650px) and (max-width: 1000px), only screen and (min-width: 1001px) and (max-width: 1300px) {
+  .arch-container {
+    padding:0
+  }
+}
+
+.arch {
+  border: none;
+  -webkit-transition: none;
+  transition: none;
+  width: 25%;
+  float: left;
+  color: #635f59;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 19.2px
+}
+
+.arch .arch-text {
+  -webkit-transition: all 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  transition: all 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  width: 100%;
+  float: left
+}
+
+.arch .arch-text>span {
+  display: block
+}
+
+.arch .icon {
+  -webkit-transition: all 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  transition: all 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955)
+}
+
+.arch .icon svg,.arch .icon path,.arch .icon polygon,.arch .icon g,.arch .icon circle,.arch .icon rect {
+  fill: #c9c3b7
+}
+
+.arch:last-child {
+  margin-right: 0
+}
+
+.arch:hover .arch-text {
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+  color: #c9c3b7
+}
+
+.arch:hover .icon {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2)
+}
+
+.arch:hover .icon svg,.arch:hover .icon path,.arch:hover .icon polygon,.arch:hover .icon g,.arch:hover .icon circle,.arch:hover .icon rect {
+  fill: #635f59
+}
+
+@media only screen and (max-width: 650px) {
+  .arch .arch-text {
+    display:none
+  }
+
+  .arch .icon {
+    margin-top: 0
+  }
+}
+
+@media only screen and (min-width: 650px) and (max-width: 1000px) {
+  .arch {
+    font-size:16px
+  }
+}
+
+.icon {
+  -webkit-transition: all 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  transition: all 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  display: inline-block;
+  vertical-align: top;
+  position: relative
+}
+
+.icon svg,.icon img {
+  width: 100%;
+  height: 100%
+}
+
+.icon svg,.icon path,.icon polygon,.icon g,.icon circle {
+  fill: #635f59
+}
+
+.icon.colour-white svg,.icon.colour-white path,.icon.colour-white polygon,.icon.colour-white g,.icon.colour-white circle,.icon.colour-white rect {
+  fill: #fff
+}
+
+.icon.colour-four svg,.icon.colour-four path,.icon.colour-four polygon,.icon.colour-four g,.icon.colour-four circle,.icon.colour-four rect {
+  fill: #e5dbc6
+}
+.icon-36 {
+  width: 36px;
+  height: 36px
+}
+
+.icon-40 {
+  width: 40px;
+  height: 40px
+}
+
+.icon-44 {
+  width: 44px;
+  height: 44px
+}
+
+.icon-48 {
+  width: 48px;
+  height: 48px
+}
+
+.icon-52 {
+  width: 52px;
+  height: 52px
+}
