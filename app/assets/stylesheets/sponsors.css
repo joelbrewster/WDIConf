@@ -1,0 +1,17 @@
+.grayscale{
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);  /* For Webkit browsers */
+    filter: gray;  /* For IE 6 - 9 */
+    -webkit-transition: all .3s ease;  /* Transition for Webkit browsers */
+    margin: 33px;
+    margin-bottom: 40px;
+}
+
+.grayscale:hover {
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    filter: none;
+}
+.sponsor-heading {
+  text-align: center;
+}

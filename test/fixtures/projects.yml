@@ -1,16 +1,18 @@
 # == Schema Information
 #
-# Table name: conferences
+# Table name: projects
 #
 #  id                  :integer          not null, primary key
-#  conference_title    :string
-#  conference_address  :string
-#  conference_postcode :string
-#  conference_username :string
-#  password_digest     :string
+#  project_title       :string
+#  project_description :string
+#  project_time        :datetime
+#  project_image1      :string
+#  project_image2      :string
+#  project_image3      :string
+#  project_github      :string
 #  created_at          :datetime         not null
 #  updated_at          :datetime         not null
-#  conference_suburb   :string
+#  conference_id       :integer
 #
 
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html

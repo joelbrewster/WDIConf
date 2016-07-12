@@ -28,6 +28,8 @@ Annotates Rails/ActiveRecord Models, routes, fixtures, and others based on the d
 - First version wifreframes done up in bootstrap.
 - Used css keyframes to make neon heading
 - Decided to change the sponsors icons to load from grayscale initially to colored on mouse hover.
+- Changed using wider logos with text (different width too) to just using squared logos.
+- Added some images from ![here](https://www.behance.net/laylow) to link with the synthwave/synthpop/cyberpunk theme.
 
 ### Layouts
 - Opted for a single page layout (minus the booking page) with a static header.
