@@ -4,12 +4,13 @@ $(document).ready(function(){
 
 var projectTitle = $('<h1>').text('TITLE')
 
-$('.block').hover(function(){
-  $('.text-animation').toggleClass('on');
-  $('.text-animation .p1').toggleClass('fadeInUp');
-  $('.slider img').toggleClass('fade');
-  $('.text-animation .p2').toggleClass('fadeInUp');
-});
+// $('.block').hover(function(){
+//   $('.slider img').toggleClass('fade');
+//   $('.layer-animation').toggleClass('on');
+//
+//   $('.layer-animation .p1').toggleClass('fadeInUp');
+//   $('.layer-animation .p2').toggleClass('fadeInUp');
+// });
 
 
 // when click on project poster - show slider and close button

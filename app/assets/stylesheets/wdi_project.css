@@ -8,38 +8,39 @@
   opacity: 0;
 }
 
-.text-animation {
-    font-size: 100px;
-    opacity: 0;
-    transition: all .2s ease-in-out;
-    color: black;
+
+
+.layer-animation {
+    display: flex;
+    margin: 0 auto;
+    padding-top:30px;
+    position: absolute;
+    z-index: 2;
+    border: 1px solid red;
 }
+
 .on {
     opacity: 1;
 }
-.fade {
-    opacity: .4;
-}
-.text-animation {
-  text-align: center;
-    margin: 0 auto;
-    top: 10%;
-    position: absolute;
-    z-index: 2;
+
+.pic {
+  opacity: 0;
 }
 
-.text-animation .p1 {
-  margin: 0 auto;
-  width: 100%;
-  text-align: center;
-  font-size: 50px;
-  font-weight: 800;
+.layer-animation:hover .pic {
+  opacity: 1  ;
+  transform: translateY(15px);
 }
 
-.text-animation .p2 {
-  text-align: center;
-  font-size: 50px;
-  font-weight: 800;
+.layer-animation:hover .pic {
+  opacity: 1;
+  transform: translateY(15px);
+}
+
+
+
+.pic1, .pic2, .pic3 {
+  transition: all 300ms;
 }
 
 
@@ -52,6 +53,10 @@
 
 .slider div{
     transition: all .2s ease-in-out;
+}
+
+.fade {
+    opacity: .4;
 }
 
 .project-p{
