@@ -41,12 +41,42 @@ footer {
 
 
 
+.speaker {
+	border-radius: 5px 50px 5px;
+	height: auto;
+	width: 500px;
+	margin-bottom: 40px;
+}
+
+.chip {
+  display: inline-block;
+  height: 32px;
+  font-size: 13px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.6);
+  line-height: 32px;
+  padding: 0 12px;
+  border-radius: 16px;
+  background-color: #e4e4e4;
+}
+
+.chip img {
+  float: left;
+  margin: 0 8px 0 -12px;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+}
+
 @media (max-width: 768px) {
 .navbar-right {
 	margin-top: 0;
 	margin-bottom: 15px;
 }
+<<<<<<< HEAD
+=======
 .projects-slider-height{
 	height: 500px;
 }
 }
+>>>>>>> 9887f0a3c0e211a7f1ed5189508a9e57abaa29fa
