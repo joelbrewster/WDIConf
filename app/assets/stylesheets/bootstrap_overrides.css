@@ -31,6 +31,15 @@
 footer {
 	width: 100%
 }
+.projects-slider-height{
+	height: 500px;
+}
+.carousel-control.left, .carousel-control.right {
+	background-image: none;
+}
+
+
+
 
 .speaker {
 	border-radius: 5px 50px 5px;
@@ -64,3 +73,10 @@ footer {
 	margin-top: 0;
 	margin-bottom: 15px;
 }
+<<<<<<< HEAD
+=======
+.projects-slider-height{
+	height: 500px;
+}
+}
+>>>>>>> 9887f0a3c0e211a7f1ed5189508a9e57abaa29fa
