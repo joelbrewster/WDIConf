@@ -11,7 +11,7 @@
 - Added partials.
 - Fixed up gitignore.
 
-### Rails backend
+### Rails, database and backend
 - Added presenter models, routes and database.
 - Added date information to the databse.
 ```
@@ -26,6 +26,7 @@ Annotates Rails/ActiveRecord Models, routes, fixtures, and others based on the d
 ```
 startDate  => DateTime.new(2009,9,1,17)
 ```
+- For the countdown timer we used [Countdown.js](http://countdownjs.org/).
 
 ### Google Maps integration
 - Created a hardcoded address map with google maps from [google developers documentation](https://developers.google.com/maps/documentation/distance-matrix/intro#DistanceMatrixResponses).
