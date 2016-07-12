@@ -1,5 +1,7 @@
 # WDIConf 2016
 
+echo "# zero-player" >> README.md
+
 ## Workload
 ### Pre rails (Partials and Static Layout).
 - Divided up sections for the hero, information, booking, project sections and a booking page.
@@ -39,6 +41,7 @@ startDate  => DateTime.new(2009,9,1,17)
 - Decided to change the sponsors icons to load from grayscale initially to colored on mouse hover.
 - Changed using wider logos with text (different width too) to just using squared logos.
 - Added some images from [here](https://www.behance.net/laylow) to link with the synthwave/synthpop/cyberpunk theme.
+- Added [https://codepen.io/simeydotme/pen/jgcvi](glitter) style overlay to player image profiles because glitter is awesome.
 
 ### Layouts
 - Opted for a single page layout (minus the booking page) with a static header.
