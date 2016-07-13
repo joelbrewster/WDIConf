@@ -2,6 +2,9 @@ source 'https://rubygems.org'
 
 # installed by NOC for annotating the models with information about the schema
 gem 'annotate' # see https://github.com/ctran/annotate_models
+# installed by NOC for accessing data from the server in JavaScript apps.
+gem 'gon'
+gem 'rabl-rails'
 
 gem 'pg'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
