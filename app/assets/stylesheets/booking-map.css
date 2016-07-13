@@ -1,0 +1,57 @@
+
+
+.fa-wheelchair-alt {
+  height: 25px;
+  width: 25px;
+  color: grey;
+}
+
+.fa-user {
+  height: 25px;
+  width: 25px;
+  color: grey;
+}
+
+#front-screen{
+  margin: 10px;
+  padding: 10px;
+  background-color: grey;
+  margin-bottom: 30px;
+}
+
+.premium-rows{
+  background-color: yellow;
+}
+
+#board{
+  margin: 0 auto;
+  height: 500px;
+  width: 500px;
+  top: 10%;
+  position: relative;
+}
+
+#map {
+  background-color: brown;
+  flex: 2;
+  height: 400px;
+  width: 500px;
+}
+
+.booking-row {
+  display: flex;
+  height: 25px;
+  width: 500px;
+}
+
+.column {
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  font-size: 25px;
+}
+
+#ticket-price {
+  position: relative;
+  bottom: 0%;
+}
