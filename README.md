@@ -76,4 +76,3 @@ startDate  => DateTime.new(2009,9,1,17)
 
 ## Branding brainstorming
 ![First logo](./app/assets/images/WDICONF.png)
-
