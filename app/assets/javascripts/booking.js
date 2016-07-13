@@ -1,5 +1,6 @@
 // Seats that has been chosen and paid
-var paidSeats = "0.0 0.4 0.5 0.6 ";
+alert(gon.seats_booked);
+var paidSeats = gon.seats_booked;
 // var paidSeats; // If all seats are available;
 var chosenSeatsCount = 0;
 var ticketPrice = 100;
