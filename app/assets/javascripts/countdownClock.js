@@ -38,8 +38,11 @@ function initializeClock(id, endtime) {
   updateClock();
   var timeinterval = setInterval(updateClock, 1000);
 }
+// take the project_time out of rails and bring into javascript.
+var time = new Date(gon.project_time);
 
-var deadline = new Date(Date.parse(new Date()) + 15 * 24 * 60 * 60 * 1000);
+// reference: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/parse
+var deadline = new Date(Date.parse(time) + 0 * 24 * 60 * 60 * 1000);
 initializeClock('clockdiv', deadline);
 
 
