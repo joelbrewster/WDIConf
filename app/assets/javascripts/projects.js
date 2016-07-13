@@ -22,5 +22,4 @@ $(".regular").slick({
 
 
 
-
 });// doc ready end
