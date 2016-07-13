@@ -5,10 +5,7 @@ $(document).ready(function(){
 var projectTitle = $('<h1>').text('TITLE')
 
 $('.block').hover(function(){
-  $('.text-animation').toggleClass('on');
-  $('.text-animation .p1').toggleClass('fadeInUp');
-  $('.slider img').toggleClass('fade');
-  $('.text-animation .p2').toggleClass('fadeInUp');
+  $('.slider div').toggleClass('fade');
 });
 
 

@@ -1,45 +1,58 @@
-
-.block{
+.block {
+  width: 1130px;
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding-top:100px;
   position: absolute;
-  z-index: 3;
-  background: blue;
-  width:100%;
-  height: 100%;
-  opacity: 0;
+  z-index: 2;
 }
 
-.text-animation {
-    font-size: 100px;
-    opacity: 0;
-    transition: all .2s ease-in-out;
-    color: black;
-}
 .on {
     opacity: 1;
 }
+
 .fade {
     opacity: .4;
 }
-.text-animation {
+
+.pic {
   text-align: center;
-    margin: 0 auto;
-    top: 10%;
-    position: absolute;
-    z-index: 2;
+  display: flex;
+  flex-flow: column;
+  margin: 320px 20px;
+  opacity: 0;
 }
 
-.text-animation .p1 {
-  margin: 0 auto;
-  width: 100%;
-  text-align: center;
-  font-size: 50px;
-  font-weight: 800;
+.pic p{
+margin:20px;
+font-size: 20px;
+font-weight: bolder;
 }
 
-.text-animation .p2 {
-  text-align: center;
-  font-size: 50px;
-  font-weight: 800;
+/*for CSS animation hover target*/
+.block:hover .pic {
+  opacity: 1;
+  transform: translateY(-15px);
+}
+
+
+.pic1 {
+  transition: all .3s ease-in-out;
+}
+
+.pic2{
+  transition: all .3s ease-in-out .2s;
+}
+
+.pic3 {
+  transition: all .3s ease-in-out .4s;
+}
+
+/*for jquery animation hover target*/
+.slider div{
+    transition: all 1s ease-in-out;
 }
 
 
@@ -47,18 +60,16 @@
     position: relative;
     margin: 0 auto;
     padding: 0;
-    /*border: 2px solid red;*/
 }
 
-.slider div{
-    transition: all .2s ease-in-out;
-}
+
 
 .project-p{
-  padding: 0 30px  ;
+  font-size: 18px;
+  padding: 0 60px  ;
   width: 1130px;
   position: absolute;
-  bottom: 20px;
+  bottom: 100px;
   z-index: 5;
   text-align: center;
   margin: 45px 0;
@@ -178,4 +189,20 @@
 [dir='rtl'] .slick-next:before
 {
     content: '←';
+}
+
+
+
+.slick-prev:before {
+  content: "<";
+  color: black;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.slick-next:before {
+  content: ">";
+  color: black;
+  font-size: 30px;
+  font-weight: 800;
 }
