@@ -73,8 +73,9 @@ footer {
 .projects-slider-height{
 	height: 500px;
 }
+}
 
-/*// this css is actual magic that provides spakles along with magic.js*/
+// this css is actual magic that provides spakles along with magic.js
 .sparkley {
   background: lighten( $buttonBackground , 10% );
   color: $buttonColor;
