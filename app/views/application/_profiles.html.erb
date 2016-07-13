@@ -3,10 +3,21 @@
   <div class="container">
     <h2 class="text-center">Speakers</h2>
     <div class="row">
+      <% @presenters.each do |presenter| %>
+        <%= presenter.presenter_name %><br>
+        <%= presenter.presenter_title %><br>
+        <%= presenter.presenter_image %><br>
+        <% presenter.presenter_skills.each do |skill| %>
+          <ul>
+            <li>
+          <%= skill[0] %> - <%= skill[1] %>
+        </li>
+      </ul>
+        <% end %>
+      <% end %>
       <div class="col-lg-6 col-md-6 col-sm-6 pix-border sparkley"> <%= image_tag("profiles/wdi_chris", class: "speaker") %> </div>
       <div class="col-lg-6 col-md-6 col-sm-6 pix-border sparkley"> <%= image_tag("profiles/wdi_jason", class: "speaker") %> </div>
-    </div>
-    <div class="row">
+
       <div class="col-lg-6 col-md-6 col-sm-6 pix-border sparkley"> <%= image_tag("profiles/wdi_joel", class: "speaker") %> </div>
       <div class="col-lg-6 col-md-6 col-sm-6 pix-border sparkley"> <%= image_tag("profiles/wdi_niall", class: "speaker") %> </div>
     </div>
