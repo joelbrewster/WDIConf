@@ -1,12 +1,32 @@
+
 .block {
-  width: 1130px;
-  height: 550px;
   display: flex;
   justify-content: center;
-  margin: 0 auto;
-  padding-top:100px;
+  flex-flow: column;
+  width: 1130px;
+  height: 850px;
+  margin: 80px auto;
   position: absolute;
   z-index: 2;
+  /*border: 1px solid red;*/
+}
+
+.block div{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.project-p{
+  font-size: 18px;
+  padding: 0 60px;
+  width: 1130px;
+  position: absolute;
+  bottom: 100px;
+  z-index: 5;
+  text-align: center;
+  margin: 45px 0;
 }
 
 .on {
@@ -17,11 +37,19 @@
     opacity: .4;
 }
 
+.project-into-text{
+  opacity: 0;
+  font-size: 20px;
+  padding: 0 100px;
+  line-height: 30px;
+  text-align: center;
+}
+
 .pic {
   text-align: center;
   display: flex;
   flex-flow: column;
-  margin: 320px 20px;
+  margin: 0 20px 30px 20px;
   opacity: 0;
 }
 
@@ -50,6 +78,10 @@ font-weight: bolder;
   transition: all .3s ease-in-out .4s;
 }
 
+.project-into-text {
+  transition: all .3s ease-in-out .6s;
+}
+
 /*for jquery animation hover target*/
 .slider div{
     transition: all 1s ease-in-out;
@@ -64,16 +96,7 @@ font-weight: bolder;
 
 
 
-.project-p{
-  font-size: 18px;
-  padding: 0 60px  ;
-  width: 1130px;
-  position: absolute;
-  bottom: 100px;
-  z-index: 5;
-  text-align: center;
-  margin: 45px 0;
-}
+
 
 
 
@@ -156,7 +179,7 @@ font-weight: bolder;
 .slick-prev
 {
 	z-index:100;
-    left: -45px;
+    left: -55px;
 
 }
 [dir='rtl'] .slick-prev
@@ -175,7 +198,7 @@ font-weight: bolder;
 
 .slick-next
 {
-    right: -45px;
+    right: -55px;
 }
 [dir='rtl'] .slick-next
 {
@@ -191,18 +214,20 @@ font-weight: bolder;
     content: '←';
 }
 
-
-
 .slick-prev:before {
+  font-family: 'Passion One', cursive;
+  font-weight: 400;
   content: "<";
   color: black;
-  font-size: 30px;
+  font-size: 70px;
   font-weight: 800;
 }
 
 .slick-next:before {
+  font-family: 'Passion One', cursive;
+  font-weight: 400;
   content: ">";
   color: black;
-  font-size: 30px;
+  font-size: 70px;
   font-weight: 800;
 }

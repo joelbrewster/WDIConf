@@ -14,6 +14,7 @@
 ### Rails, database and backend
 - Added presenter models, routes and database.
 - Added date information to the databse.
+  - We added a countdown timer to the event from a date set in the database
 ```
 puts Time.new(2016, 07, 17, 10, 0, 0, "+10:00")
 ```
@@ -27,6 +28,7 @@ Annotates Rails/ActiveRecord Models, routes, fixtures, and others based on the d
 startDate  => DateTime.new(2009,9,1,17)
 ```
 - For the countdown timer we used [Countdown.js](http://countdownjs.org/).
+- Used [this reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/parse) to parse a string into a date object.
 
 ### Google Maps integration
 - Created a hardcoded address map with google maps from [google developers documentation](https://developers.google.com/maps/documentation/distance-matrix/intro#DistanceMatrixResponses).
@@ -56,6 +58,7 @@ startDate  => DateTime.new(2009,9,1,17)
 
 ### Resources
 - Added profile pictures.
+- Added project carousels with profile overlays.
 
 
 ### Whiteboard brainstorming
