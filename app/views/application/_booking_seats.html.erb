@@ -5,26 +5,26 @@
   <div id="front-screen">Stage</div>
   <div id="board">
     <div class="booking-row 0">
-      <div class="column 0"><i class="fa fa-user"></i></div>
-      <div class="column 1"><i class="fa fa-user"></i></div>
-      <div class="column 2"><i class="fa fa-user"></i></div>
-      <div class="column 3"><i class="fa fa-user"></i></div>
-      <div class="column 4"><i class="fa fa-user"></i></div>
-      <div class="column 5"><i class="fa fa-user"></i></div>
-      <div class="column 6"><i class="fa fa-user"></i></div>
-      <div class="column 7"><i class="fa fa-user"></i></div>
-      <div class="column 8"><i class="fa fa-user"></i></div>
-      <div class="column 9"><i class="fa fa-user"></i></div>
-      <div class="column 10"><i class="fa fa-user"></i></div>
-      <div class="column 11"><i class="fa fa-user"></i></div>
-      <div class="column 12"><i class="fa fa-user"></i></div>
-      <div class="column 13"><i class="fa fa-user"></i></div>
-      <div class="column 14"><i class="fa fa-user"></i></div>
-      <div class="column 15"><i class="fa fa-user"></i></div>
-      <div class="column 16"><i class="fa fa-user"></i></div>
-      <div class="column 17"><i class="fa fa-user"></i></div>
-      <div class="column 18"><i class="fa fa-user"></i></div>
-      <div class="column 19"><i class="fa fa-user"></i></div>
+      <div class="column 0"><i class="fa fa-wheelchair-alt"></i></div>
+      <div class="column 1"><i class="fa fa-wheelchair-alt"></i></div>
+      <div class="column 2"><i class="fa fa-wheelchair-alt"></i></div>
+      <div class="column 3"><i class="fa fa-wheelchair-alt"></i></div>
+      <div class="column 4"><i class="fa fa-wheelchair-alt"></i></div>
+      <div class="column 5"><i class="fa fa-wheelchair-alt"></i></div>
+      <div class="column 6"><i class="fa fa-wheelchair-alt"></i></div>
+      <div class="column 7"><i class="fa fa-wheelchair-alt"></i></div>
+      <div class="column 8"><i class="fa fa-wheelchair-alt"></i></div>
+      <div class="column 9"><i class="fa fa-wheelchair-alt"></i></div>
+      <div class="column 10"><i class="fa fa-wheelchair-alt"></i></div>
+      <div class="column 11"><i class="fa fa-wheelchair-alt"></i></div>
+      <div class="column 12"><i class="fa fa-wheelchair-alt"></i></div>
+      <div class="column 13"><i class="fa fa-wheelchair-alt"></i></div>
+      <div class="column 14"><i class="fa fa-wheelchair-alt"></i></div>
+      <div class="column 15"><i class="fa fa-wheelchair-alt"></i></div>
+      <div class="column 16"><i class="fa fa-wheelchair-alt"></i></div>
+      <div class="column 17"><i class="fa fa-wheelchair-alt"></i></div>
+      <div class="column 18"><i class="fa fa-wheelchair-alt"></i></div>
+      <div class="column 19"><i class="fa fa-wheelchair-alt"></i></div>
     </div>
     <div class="booking-row 1">
       <div class="column 0"><i class="fa fa-user"></i></div>
@@ -230,6 +230,10 @@
   <form>
     <input id="submit-btn" type="submit">
   </form>
+  <%= form_tag '/posts', method: :put do %>
+  <%= text_field_tag :seats_booked, @conference[0].seats_booked %>
+  <%= submit_tag 'Submit' %>
+  <% end %>
 
 </div>
 </section>
