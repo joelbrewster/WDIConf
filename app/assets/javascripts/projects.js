@@ -4,13 +4,9 @@ $(document).ready(function(){
 
 var projectTitle = $('<h1>').text('TITLE')
 
-// $('.block').hover(function(){
-//   $('.slider img').toggleClass('fade');
-//   $('.layer-animation').toggleClass('on');
-//
-//   $('.layer-animation .p1').toggleClass('fadeInUp');
-//   $('.layer-animation .p2').toggleClass('fadeInUp');
-// });
+$('.block').hover(function(){
+  $('.slider div').toggleClass('fade');
+});
 
 
 // when click on project poster - show slider and close button
