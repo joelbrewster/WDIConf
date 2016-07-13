@@ -42,6 +42,7 @@ startDate  => DateTime.new(2009,9,1,17)
 - Changed using wider logos with text (different width too) to just using squared logos.
 - Added some images from [here](https://www.behance.net/laylow) to link with the synthwave/synthpop/cyberpunk theme.
 - Added [https://codepen.io/simeydotme/pen/jgcvi](glitter) style overlay to player image profiles because glitter is awesome.
+- Added a [http://codepen.io/SitePoint/pen/MwNPVq](javascript countdown clock) in the navbar partial.
 
 ### Layouts
 - Opted for a single page layout (minus the booking page) with a static header.
