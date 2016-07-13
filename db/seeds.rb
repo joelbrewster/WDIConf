@@ -17,7 +17,8 @@ Conference.create([
     conference_suburb: "Melbourne",
     conference_postcode: 3000,
     conference_username: "jammin",
-    password: "123"
+    password: "123",
+    seats_booked: "0.0 0.4 0.5 0.6 "
   }
 ])
 
@@ -25,7 +26,7 @@ Project.create([
   {
     project_title: "Pulse Express",
     project_description: "A live music app... Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam condimentum accumsan ex sed accumsan. Ut urna elit, finibus pharetra bibendum et, elementum et erat. Curabitur porttitor mauris tellus. Donec facilisis leo a fermentum consequat. Vivamus pharetra, leo vel tincidunt tempor, ipsum lorem scelerisque nisi, quis aliquam mi neque pulvinar nisl.",
-    project_time: DateTime.new(2016,8,17,0),
+    project_time: DateTime.new(2016,7,17,0),
     project_image1: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/1000px-Google_%22G%22_Logo.svg.png",
     project_image2: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/1000px-Google_%22G%22_Logo.svg.png",
     project_image3: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/1000px-Google_%22G%22_Logo.svg.png",
