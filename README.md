@@ -14,6 +14,7 @@
 ### Rails, database and backend
 - Added presenter models, routes and database.
 - Added date information to the databse.
+  - We added a countdown timer to the event from a date set in the database
 ```
 puts Time.new(2016, 07, 17, 10, 0, 0, "+10:00")
 ```
@@ -56,6 +57,7 @@ startDate  => DateTime.new(2009,9,1,17)
 
 ### Resources
 - Added profile pictures.
+- Added project carousels with profile overlays.
 
 
 ### Whiteboard brainstorming
