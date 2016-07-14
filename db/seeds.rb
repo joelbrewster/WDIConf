@@ -48,7 +48,7 @@ Presenter.create([
   {
     presenter_name: "Chris McCorry",
     presenter_title: "Front End Web Developer",
-    presenter_image: "app/assets/images/cjm.JPG",
+    presenter_image: "profiles/wdi_chris.jpg",
     presenter_skills: [
       [ "Git" , "<i class='devicon-git-plain'></i>" ],
       [ "HTML5" , "<i class='devicon-nodejs-plain'></i>" ],
@@ -67,7 +67,7 @@ Presenter.create([
   {
     presenter_name: "Jason Low",
     presenter_title: "Full Stack Web Developer",
-    presenter_image: "app/assets/images/IMG_0336.JPG",
+    presenter_image: "profiles/wdi_jason.jpg",
     presenter_skills: [
       [ "Git" , "<i class='devicon-git-plain'></i>" ],
       [ "HTML5" , "<i class='devicon-nodejs-plain'></i>" ],
@@ -84,7 +84,7 @@ Presenter.create([
   {
     presenter_name: "Joel Brewster",
     presenter_title: "Full Stack Web Developer",
-    presenter_image: "app/assets/images/joelbrewster.jpg",
+    presenter_image: "profiles/wdi_joel.jpg",
     presenter_skills: [
       [ "Git" , "<i class='devicon-git-plain'></i>" ],
       [ "HTML5" , "<i class='devicon-nodejs-plain'></i>" ],
@@ -103,7 +103,7 @@ Presenter.create([
   {
     presenter_name: "Niall O'Callaghan",
     presenter_title: "Full Stack Web Developer",
-    presenter_image: "app/assets/images/niall.JPG",
+    presenter_image: "profiles/wdi_niall.jpg",
     presenter_skills: [
       [ "Git" , "<i class='devicon-git-plain'></i>" ],
       [ "HTML5" , "<i class='devicon-nodejs-plain'></i>" ],
@@ -123,7 +123,7 @@ Presenter.create([
   {
     presenter_name: "Peter Daniel",
     presenter_title: "Frontend Web Developer",
-    presenter_image: "app/assets/images/peter.JPG",
+    presenter_image: "profiles/wdi_peter.jpg",
     presenter_skills: [
       [ "Git" , "<i class='devicon-git-plain'></i>" ],
       [ "HTML5" , "<i class='devicon-nodejs-plain'></i>" ],
@@ -141,7 +141,7 @@ Presenter.create([
   {
     presenter_name: "Will Guan",
     presenter_title: "Full Stack Web Developer",
-    presenter_image: "app/assets/images/willg.jpg",
+    presenter_image: "profiles/wdi_will.jpg",
     presenter_skills: [
       [ "Git" , "<i class='devicon-git-plain'></i>" ],
       [ "HTML5" , "<i class='devicon-nodejs-plain'></i>" ],

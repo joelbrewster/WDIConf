@@ -1,3 +1,7 @@
+* {
+	border: 1px solid black;
+}
+
 .navbar {
 	min-height: 70px;
 	margin-bottom: 0;
@@ -37,10 +41,19 @@ footer {
 .carousel-control.left, .carousel-control.right {
 	background-image: none;
 }
+
+.speakerbox {
+	position: relative;;
+}
+
+.speaker-info {
+	position: absolute;
+}
+
 .speaker {
 	border-radius: 5px 50px 5px;
 	height: auto;
-	width: 500px;
+	width: 450px;
 	margin-bottom: 40px;
 }
 
