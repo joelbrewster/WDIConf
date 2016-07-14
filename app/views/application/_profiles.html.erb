@@ -7,9 +7,9 @@
         <div class="col-lg-4 col-md-4 col-sm-4 pix-border sparkley speakerbox">
             <%= image_tag(presenter.presenter_image, class: "speaker") %>
             <div class="speaker-info">
-                <h4><%= presenter.presenter_name %></h4><br>
-                <h5><%= presenter.presenter_title %><br></h5>
                 <div class="skills">
+                  <h4><%= presenter.presenter_name %></h4>
+                  <h5><%= presenter.presenter_title %></h5>
                     <% presenter.presenter_skills.each do |skill| %>
                         <div class="pull-left">
                             <div class="chip">
