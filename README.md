@@ -1,4 +1,4 @@
-# WDIConf 2016
+j WDIConf 2016
 
 ## Workload
 ### Pre rails (Partials and Static Layout).
@@ -32,6 +32,7 @@ startDate  => DateTime.new(2009,9,1,17)
 
 ### Google Maps integration
 - Created a hardcoded address map with google maps from [google developers documentation](https://developers.google.com/maps/documentation/distance-matrix/intro#DistanceMatrixResponses).
+- Wanted to remove the [map navigation elements](https://developers.google.com/maps/documentation/javascript/examples/control-disableUI).
 
 ### CSS Frontend
 - Added a carousel at the top of the page to display different parts of each project.
@@ -42,6 +43,7 @@ startDate  => DateTime.new(2009,9,1,17)
 - Changed using wider logos with text (different width too) to just using squared logos.
 - Added some images from [here](https://www.behance.net/laylow) to link with the synthwave/synthpop/cyberpunk theme.
 - Added [https://codepen.io/simeydotme/pen/jgcvi](glitter) style overlay to player image profiles because glitter is awesome.
+- Added a [http://codepen.io/SitePoint/pen/MwNPVq](javascript countdown clock) in the navbar partial.
 
 ### Layouts
 - Opted for a single page layout (minus the booking page) with a static header.
