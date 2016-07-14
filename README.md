@@ -29,6 +29,14 @@ startDate  => DateTime.new(2009,9,1,17)
 ```
 - For the countdown timer we used [Countdown.js](http://countdownjs.org/).
 - Used [this reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/parse) to parse a string into a date object.
+- Rails doesnt render the line breaks automatically. We used a [text helper](http://api.rubyonrails.org/classes/ActionView/Helpers/TextHelper.html).
+
+```
+<td> <%= simple_format(project.project_description) %></td>
+```
+
+`simple_format`
+allows you to take line breaks from database (`\n`) and it renders `<br>` tags instead.
 
 ### Google Maps integration
 - Created a hardcoded address map with google maps from [google developers documentation](https://developers.google.com/maps/documentation/distance-matrix/intro#DistanceMatrixResponses).
