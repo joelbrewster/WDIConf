@@ -9,5 +9,13 @@ class ConferencesController < ApplicationController
     # gon.name = variablename
   end
 
+  def update
+    conference = Conference.all
+    conference_seat = conference[0]
+    conference_seat.seats_booked = params[:seats_booked]
+    conference_seat.save
+    redirect_to '/'
+  end
+
 
 end
