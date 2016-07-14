@@ -28,6 +28,7 @@ Annotates Rails/ActiveRecord Models, routes, fixtures, and others based on the d
 startDate  => DateTime.new(2009,9,1,17)
 ```
 - For the countdown timer we used [Countdown.js](http://countdownjs.org/).
+- Used [this reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/parse) to parse a string into a date object.
 
 ### Google Maps integration
 - Created a hardcoded address map with google maps from [google developers documentation](https://developers.google.com/maps/documentation/distance-matrix/intro#DistanceMatrixResponses).

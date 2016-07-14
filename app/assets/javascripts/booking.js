@@ -1,6 +1,8 @@
 // Seats that has been chosen and paid
-var paidSeats = "0.0 0.4 0.5 0.6 ";
+// alert(gon.seats_booked);
+var paidSeats = gon.seats_booked;
 // var paidSeats; // If all seats are available;
+var chosenSeats;
 var chosenSeatsCount = 0;
 var ticketPrice = 100;
 var premiumPrice = 300;
@@ -48,7 +50,9 @@ for(var i = 0; i < seats.length; i ++){
   if(paidSeats){
     // Splitting the paidseats string into an arrays of integers
     var paidSeatsIndex = paidSeats.split(" ");
-    paidSeatsIndex.pop();
+    chosenSeats = paidSeatsIndex;
+    console.log(chosenSeats);
+    // paidSeatsIndex.pop();
     console.log(paidSeatsIndex);
     for (var i = 0; i < paidSeatsIndex.length; i++){
       // Split the array again from the dot to differentiate rows and columns
@@ -76,6 +80,9 @@ for(var i = 0; i < seats.length; i ++){
         $(this).children().css('color', 'blue');
         seats[rowIndex][columnIndex] = 1;
         chosenSeatsCount += 1;
+        var clickedSeat = rowIndex + "." + columnIndex;
+        chosenSeats.push(clickedSeat);
+        $('#seats_booked').val(chosenSeats.join(" "));
         if(rowIndex < premiumRows){
           totalPrice += premiumPrice;
         } else {
@@ -86,6 +93,9 @@ for(var i = 0; i < seats.length; i ++){
       } else if (seats[rowIndex][columnIndex] === 1){
         $(this).children().css('color', 'grey');
         seats[rowIndex][columnIndex] = 0;
+        var clickedSeat = rowIndex + "." + columnIndex;
+        chosenSeats.splice(chosenSeats.indexOf(clickedSeat), 1);
+        $('#seats_booked').val(chosenSeats.join(" "));
         chosenSeatsCount -= 1;
         if(rowIndex < premiumRows){
           totalPrice -= premiumPrice;
@@ -102,6 +112,9 @@ for(var i = 0; i < seats.length; i ++){
       if (seats[rowIndex][columnIndex] === 1){
         $(this).children().css('color', 'grey');
         seats[rowIndex][columnIndex] = 0;
+        var clickedSeat = rowIndex + "." + columnIndex;
+        $('#seats_booked').val(chosenSeats.join(" "));
+        chosenSeats.splice(clickedSeat, 1);
         chosenSeatsCount -= 1;
         if(rowIndex < premiumRows){
           totalPrice -= premiumPrice;
