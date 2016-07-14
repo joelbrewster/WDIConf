@@ -35,7 +35,7 @@
 }
 
 .wdi7conference-logo{
-  margin-top: 320px;
+  margin-top: 160px;
   width: 45%;
   height: 45%;
 }
@@ -44,9 +44,111 @@
   width: 100%;
   position: absolute;
 }
+/*.hero-book {
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+  font-size: 20px;
+  color: #fff;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+  animation: neon1 1.5s ease-in-out infinite alternate;
+}
+.hero-book:focus {
+  text-decoration: none;
+  outline: none;
+  border: none;
+}
+.hero-book:hover {
+  color: white;
+  text-decoration: none;
+  outline: none;
+  border: none;
+}
+.hero-book:visited {
+  color: white;
+  text-decoration: none;
+  outline: none;
+  border: none;
+}*/
+
+.hero-book-button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+  font-size: 30px;
+  background: rgb(207, 73, 202);
+  border-radius: 18px;
+  padding: 20px;
+}
+
+.hero-book-button:focus {
+  text-decoration: none;
+  outline: none;
+  border: none;
+  color: white;
+}
+.hero-book-button:hover {
+  color: white;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  background: rgb(80, 9, 75);
+  transition: all 0.5s ease-in-out;
+}
+.hero-book-button:visited {
+  color: white;
+  text-decoration: none;
+  outline: none;
+  border: none;
+}
+.hero-book-button:visited:focus {
+  color: white;
+  text-decoration: none;
+  outline: none;
+  border: none;
+}
+
 
 /*------------------NEON TEXT------------------*/
-p#hero-heading {
+/*glow*/
+@keyframes neon1 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FF1177, 0 0 70px #FF1177, 0 0 80px #FF1177, 0 0 100px #FF1177, 0 0 150px #FF1177;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177;
+  }
+}
+
+
+
+div#clockdivhero {
+  font-size: 25px;
+  margin: auto 0 20px 0;
+  margin-top: 540px;
+  color: #fff;
+
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+  animation: neon1 1.5s ease-in-out infinite alternate;
+
+  position: absolute;
+  display: block;
+  text-align: center;
+  width: 100%;
+  /*font-family: helvetica*/
+  font-family: 'Press Start 2P', cursive;
+  z-index: 510;
+}
+
+/*p#hero-heading {
   font-size: 60px;
   margin: auto 0 20px 0;
   margin-top: 450px;
@@ -64,14 +166,4 @@ p#hero-heading {
   text-align: center;
   width: 100%;
   font-family: 'Press Start 2P', cursive;
-}
-
-/*glow*/
-@keyframes neon1 {
-  from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FF1177, 0 0 70px #FF1177, 0 0 80px #FF1177, 0 0 100px #FF1177, 0 0 150px #FF1177;
-  }
-  to {
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177;
-  }
-}
+}*/
