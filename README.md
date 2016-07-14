@@ -1,4 +1,4 @@
-# WDIConf 2016
+j WDIConf 2016
 
 ## Workload
 ### Pre rails (Partials and Static Layout).
@@ -32,6 +32,7 @@ startDate  => DateTime.new(2009,9,1,17)
 
 ### Google Maps integration
 - Created a hardcoded address map with google maps from [google developers documentation](https://developers.google.com/maps/documentation/distance-matrix/intro#DistanceMatrixResponses).
+- Wanted to remove the [map navigation elements](https://developers.google.com/maps/documentation/javascript/examples/control-disableUI).
 
 ### CSS Frontend
 - Added a carousel at the top of the page to display different parts of each project.
