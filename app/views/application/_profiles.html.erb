@@ -4,18 +4,20 @@
     <h2 class="text-center">Speakers</h2>
     <div class="row">
       <% @presenters.each do |presenter| %>
-        <div class="col-lg-5 col-md-6 col-sm-6 pix-border sparkley speakerbox">
+        <div class="col-lg-4 col-md-4 col-sm-4 pix-border sparkley speakerbox">
             <%= image_tag(presenter.presenter_image, class: "speaker") %>
             <div class="speaker-info">
-                <%= presenter.presenter_name %><br>
-                <%= presenter.presenter_title %><br>
-                <% presenter.presenter_skills.each do |skill| %>
-                    <ul>
-                      <li>
-                        <%= skill[0] %> - <%= skill[1] %>
-                      </li>
-                    </ul>
-                <% end %>
+                <h4><%= presenter.presenter_name %></h4><br>
+                <h5><%= presenter.presenter_title %><br></h5>
+                <div class="skills">
+                    <% presenter.presenter_skills.each do |skill| %>
+                        <div class="pull-left">
+                            <div class="chip">
+                                <i class="<%= skill[1] %>"></i><%= skill[0] %>
+                            </div>
+                        </div>
+                    <% end %>
+                </div>
             </div>
         </div>
       <% end %>

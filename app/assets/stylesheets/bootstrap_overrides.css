@@ -1,7 +1,6 @@
-* {
+/** {
 	border: 1px solid black;
-}
-
+}*/
 .navbar {
 	min-height: 70px;
 	margin-bottom: 0;
@@ -42,31 +41,48 @@ footer {
 	background-image: none;
 }
 
+h4 {
+	margin-top: 30px;
+}
+
+h4,h5 {
+	margin-left: 30px;
+}
+
 .speakerbox {
-	position: relative;;
+	position: relative;
+	margin: 0 auto;
 }
 
 .speaker-info {
 	position: absolute;
+	top: 0px;
+	z-index: 1;
 }
 
 .speaker {
 	border-radius: 5px 50px 5px;
 	height: auto;
-	width: 450px;
+	width: 100%;
 	margin-bottom: 40px;
+}
+
+.skills {
+	width: 89%;
+	margin: 275px auto 0 30px;
 }
 
 .chip {
   display: inline-block;
   height: 32px;
-  font-size: 13px;
+  font-size: 10px;
   font-weight: 500;
   color: rgba(0, 0, 0, 0.6);
   line-height: 32px;
   padding: 0 12px;
   border-radius: 16px;
   background-color: #e4e4e4;
+  margin: 3px;
 }
 
 .chip i {
