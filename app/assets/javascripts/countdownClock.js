@@ -43,7 +43,7 @@ var time = new Date(gon.project_time);
 
 // reference: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/parse
 var deadline = new Date(Date.parse(time) + 0 * 24 * 60 * 60 * 1000);
-initializeClock('clockdiv', deadline);
+initializeClock('clockdivhero', deadline);
 
 
 
