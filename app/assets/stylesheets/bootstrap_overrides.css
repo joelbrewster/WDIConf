@@ -96,6 +96,11 @@ h4,h5 {
   margin-top: 0.3em;
 }
 
+
+
+
+
+/*RESPONSIVE STUFF*/
 @media (max-width: 768px) {
 .navbar-right {
 	margin-top: 0;
@@ -105,6 +110,7 @@ h4,h5 {
 .projects-slider-height{
 	height: 500px;
 }
+
 
 .sparkley {
   background: lighten( $buttonBackground , 10% );
@@ -124,4 +130,11 @@ h4,h5 {
     background: $buttonBackground;
     color: transparentize( $buttonColor,0.8 );
   }
+
+
+
+
+
+
+
 }
