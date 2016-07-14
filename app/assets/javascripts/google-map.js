@@ -1,39 +1,64 @@
-var generalAssembly = {lat: -37.818637, lng: 144.958976};
-function initMap(testing) {
-
-  // Geo coordinates of conference location:
-  // var sydney = {lat: -33.867614, lng: 151.209017};
-  // Create a map object and specify the DOM element for display.
-  var map = new google.maps.Map(document.getElementById('map'), {
-    center: generalAssembly,
-    scrollwheel: false,
-    zoom: 12
-  });
-
-  var directionsDisplay = new google.maps.DirectionsRenderer({
-    map: map
-  });
-
-  // Set destination, origin and travel mode.
-  var request = {
-    destination: generalAssembly,
-    origin: testing,
-    travelMode: google.maps.TravelMode.DRIVING
-  };
-
-  // Pass the directions request to the directions service.
-  var directionsService = new google.maps.DirectionsService();
-  directionsService.route(request, function(response, status) {
-    if (status == google.maps.DirectionsStatus.OK) {
-      // Display the route on the map.
-      directionsDisplay.setDirections(response);
-    }
-  });
-
-}
-
 
 $(function(){
+  var generalAssembly = {lat: -37.818637, lng: 144.958976};
+  function initMapDirection(testing) {
+
+    // Geo coordinates of conference location:
+    // var sydney = {lat: -33.867614, lng: 151.209017};
+    // Create a map object and specify the DOM element for display.
+    var map = new google.maps.Map(document.getElementById('map-direction'), {
+      center: generalAssembly,
+      scrollwheel: false,
+      zoom: 15
+    });
+
+    var directionsDisplay = new google.maps.DirectionsRenderer({
+      map: map
+    });
+
+    // Set destination, origin and travel mode.
+    var request = {
+      destination: generalAssembly,
+      origin: testing,
+      travelMode: google.maps.TravelMode.DRIVING
+    };
+
+    // Pass the directions request to the directions service.
+    var directionsService = new google.maps.DirectionsService();
+    directionsService.route(request, function(response, status) {
+      if (status == google.maps.DirectionsStatus.OK) {
+        // Display the route on the map.
+        directionsDisplay.setDirections(response);
+      }
+    });
+    google.maps.event.trigger(map, 'resize');
+    map.setCenter({
+      lat: -37.813155,
+      lng: 144.964078
+    });
+  }
+
+  function initMap() {
+
+    // Geo coordinates of conference location:
+    // var sydney = {lat: -33.867614, lng: 151.209017};
+    // Create a map object and specify the DOM element for display.
+    var map = new google.maps.Map(document.getElementById('map'), {
+      center: generalAssembly,
+      disableDefaultUI: true,
+      scrollwheel: false,
+      zoom: 15
+    });
+
+    // Create a marker and set its position.
+    var marker = new google.maps.Marker({
+      map: map,
+      position: generalAssembly,
+      title: 'General Assembly'
+    });
+  }
+
+  initMap();
 
   $('#submit').on('click', function(){
     event.preventDefault();
@@ -54,7 +79,7 @@ $(function(){
       console.log(data.results[0])
 
       // Passing the origin geo coordinates as the origin into initmap
-      initMap(originCoordinates);
+      initMapDirection(originCoordinates);
 
       // To get the distance and duration between wdi conference location and user's origin
       var service = new google.maps.DistanceMatrixService();
