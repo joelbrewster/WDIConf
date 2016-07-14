@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
 
 get '/' => 'conferences#index'
+patch '/seats/update' => 'conferences#update'
 
 get '/presenters/new' => 'presenters#new_presenter'
 post '/presenters/create' => 'presenters#create_presenters'
