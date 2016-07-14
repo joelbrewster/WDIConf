@@ -23,19 +23,4 @@
       <% end %>
     </div>
   </div>
-  <div class="niall-temp">
-    <h1>test</h1>
-    <% @presenters.each do |presenter| %>
-      <h3><%= presenter.presenter_name %></h3>
-      <h4>
-      <% presenter.presenter_skills.each do |skill| %>
-        <div class="chip">
-        <i class="<%= skill[1] %>"></i><%= skill[0] %>
-        </div>
-
-      <% end %>
-    </h4>
-      <br>
-    <% end %>
-  </div>
 </section>
