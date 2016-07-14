@@ -31,11 +31,52 @@
   position: relative;
 }
 
+
+
+#conference-address {
+  padding-top: 20px;
+  padding-left:50px;
+  padding-right: 50px;
+  padding-bottom: 30px;
+}
+
+#map-direction-input {
+  padding-top: 20px;
+  padding-left:50px;
+  padding-right: 50px;
+  padding-bottom: 30px;
+}
+
 #map {
+  background-color: brown;
+  flex: 2;
+  padding-left: 50px;
+  padding-right:50px;
+  padding-bottom:10px;
+  height: 140px;
+  width: 300px;
+  /*float:right;*/
+}
+
+#map-direction {
   background-color: brown;
   flex: 2;
   height: 400px;
   width: 500px;
+  float: right;
+}
+
+#output {
+  color: white;
+  position:relative;
+  top: 450px;
+  left: 360px;
+  font-size: 18px;
+}
+
+#map-direction{
+  top: 55px;
+  right: 33%;
 }
 
 .booking-row {
