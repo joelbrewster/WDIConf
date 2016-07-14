@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>projects</title>
+        <link rel="stylesheet" href="projects.css" media="screen" title="no title" charset="utf-8">
+        <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
+    </head>
+    <body>
+        <h1>
+            Project Details
+        </h1>
+        <table>
+            <thead>
+                <th>project_title</th>
+                <th>project_description</th>
+                <th>project_time</th>
+                <th>project_image1</th>
+                <th>project_image2</th>
+                <th>project_image3</th>
+                <th>project_image4</th>
+                <!-- <th>created_at</th>
+                <th>updated_at</th> -->
+            </thead>
+            <tbody>
+                <% @projects.each do |project| %>
+                <tr>
+                    <td><%= project.project_title %></td>
+                    <td> <%= simple_format(project.project_description) %></td>
+                    <td> <%= project.project_time %></td>
+                    <td> <%= project.project_image1 %></td>
+                    <td> <%= project.project_image2 %></td>
+                    <td> <%= project.project_image3 %></td>
+                    <td> <%= project.project_image4 %></td>
+                    <!-- <td> %= project.created_at %></td>
+                    <td> %= project.updated_at %></td> -->
+                <% end %>
+            </tbody>
+        </table>
+    </body>
+</html>

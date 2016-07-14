@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Presenters</title>
+        <link rel="stylesheet" href="presenters.css" media="screen" title="no title" charset="utf-8">
+        <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
+    </head>
+    <body>
+        <h1>
+            Presenter Details
+        </h1>
+        <table>
+            <thead>
+                <th>Name</th>
+                <th>Title</th>
+                <th>Image</th>
+                <th>Skills</th>
+                <th>Social</th>
+                <th>GitHub</th>
+                <!-- <th>created_at</th> -->
+                <!-- <th>updated_at</th> -->
+                <th>project_id</th>
+            </thead>
+            <tbody>
+                <% @presenters.each do |presenter| %>
+                <tr>
+                    <td><%= presenter.presenter_name %></td>
+                    <td><%= presenter.presenter_title %></td>
+                    <td> <%= presenter.presenter_image %></td>
+                    <td>
+                      <% presenter.presenter_skills.each do |skill| %>
+                        <i class="<%= skill[1] %>"></i>
+                        <%= skill[0] %> |
+                      <% end %>
+                    </td>
+                    <td><%= presenter.presenter_social %></td>
+                    <td><%= presenter.presenter_github %></td>
+                    <!-- <td><% presenter.created_at %></td>
+                    <td><% presenter.updated_at %></td> -->
+                    <td><%= presenter.project_id %></td>
+                <% end %>
+            </tbody>
+        </table>
+    </body>
+</html>
