@@ -49,7 +49,7 @@ Presenter.create([
   {
     presenter_name: "Chris McCorry",
     presenter_title: "Front End Web Developer",
-    presenter_image: "app/assets/images/cjm.JPG",
+    presenter_image: "profiles/wdi_chris.jpg",
     presenter_skills: [
       [ "AngularJS" , "devicon-angularjs-plain" ],
       [ "HTML5" , "devicon-nodejs-plain" ],
@@ -68,7 +68,7 @@ Presenter.create([
   {
     presenter_name: "Jason Low",
     presenter_title: "Full Stack Web Developer",
-    presenter_image: "app/assets/images/IMG_0336.JPG",
+    presenter_image: "profiles/wdi_jason.jpg",
     presenter_skills: [
       [ "Ruby" , "devicon-ruby-plain" ],
       [ "JavaScript" , "devicon-javascript-plain" ],
@@ -85,7 +85,7 @@ Presenter.create([
   {
     presenter_name: "Joel Brewster",
     presenter_title: "Full Stack Web Developer",
-    presenter_image: "app/assets/images/joelbrewster.jpg",
+    presenter_image: "profiles/wdi_joel.jpg",
     presenter_skills: [
       [ "JavaScript" , "devicon-javascript-plain" ],
       [ "Node.js" , "devicon-nodejs-plain" ],
@@ -104,7 +104,7 @@ Presenter.create([
   {
     presenter_name: "Niall O'Callaghan",
     presenter_title: "Full Stack Web Developer",
-    presenter_image: "app/assets/images/niall.JPG",
+    presenter_image: "profiles/wdi_niall.jpg",
     presenter_skills: [
       [ "Ruby on Rails" , "devicon-rails-plain" ],
       [ "Gimp" , "devicon-gimp-plain" ],
@@ -124,7 +124,7 @@ Presenter.create([
   {
     presenter_name: "Peter Daniel",
     presenter_title: "Frontend Web Developer",
-    presenter_image: "app/assets/images/peter.JPG",
+    presenter_image: "profiles/wdi_peter.jpg",
     presenter_skills: [
       [ "Ruby" , "devicon-ruby-plain" ],
       [ "AngularJS" , "devicon-angularjs-plain" ],
@@ -142,7 +142,7 @@ Presenter.create([
   {
     presenter_name: "Will Guan",
     presenter_title: "Full Stack Web Developer",
-    presenter_image: "app/assets/images/willg.jpg",
+    presenter_image: "profiles/wdi_will.jpg",
     presenter_skills: [
       [ "AngularJS" , "devicon-angularjs-plain" ],
       [ "JavaScript" , "devicon-javascript-plain" ],

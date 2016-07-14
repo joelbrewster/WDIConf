@@ -20,7 +20,7 @@ $(function() {
   //   count: 80,
   //   color: ["#ff0080","#ff0080","#0000FF"]
   // });
-  // 
+  //
   //
   //
   // $("p").sparkleh({
@@ -28,7 +28,6 @@ $(function() {
   //   color: "#00ff00",
   //   speed: 0.05
   // });
-
 
   // an array can be passed, too for colours
   // for an image, the image needs to be fully loaded to set
@@ -41,15 +40,7 @@ $(function() {
     speed: 0.4
     });
   });
-
-
 });
-
-
-
-
-
-
 
 $.fn.sparkleh = function( options ) {
 
@@ -78,11 +69,7 @@ $.fn.sparkleh = function( options ) {
     });
 
   });
-
-}
-
-
-
+};
 
 function Sparkle( $parent, options ) {
   this.options = options;
