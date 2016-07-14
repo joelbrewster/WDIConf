@@ -1,4 +1,4 @@
-j WDIConf 2016
+# WDIConf 2016
 
 ## Workload
 ### Pre rails (Partials and Static Layout).
