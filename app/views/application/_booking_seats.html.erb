@@ -227,11 +227,8 @@
     <h1 id="ticket-price">Total price is: $0.00</h1>
     <h1 id="ticket-count">Total number of seats: 0</h1>
   </div>
-  <form>
-    <input id="submit-btn" type="submit">
-  </form>
-  <%= form_tag '/posts', method: :put do %>
-  <%= text_field_tag :seats_booked, @conference[0].seats_booked %>
+  <%= form_tag '/seats/update', method: :patch do %>
+    <%= hidden_field_tag :seats_booked, @conference[0].seats_booked %>
   <%= submit_tag 'Submit' %>
   <% end %>
 

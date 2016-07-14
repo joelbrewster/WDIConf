@@ -1,12 +1,9 @@
 Rails.application.routes.draw do
 
 get '/' => 'conferences#index'
-get '/conferences/edit' => 'conferences#edit'
-post '/conferences/[0]/edit/' => 'conferences#update'
+patch '/seats/update' => 'conferences#update'
 
 get '/projects' => 'projects#index'
-get '/projects/edit' => 'conferences#edit'
-post '/conferences/edit/:id' => 'conferences#update'
 
 get '/presenters' => 'presenters#index'
 get '/presenters/new' => 'presenters#new_presenter'
