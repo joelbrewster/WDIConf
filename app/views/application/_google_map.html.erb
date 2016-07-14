@@ -1,14 +1,24 @@
-<section class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+<section>
+  <hr>
+  <div class="container" id="location">
+    <div class="row">
+      <div id="map-direction-input" class="col-xs-6 col-md-4">
+        <p>Lost? Input your address here to do a quick direction search!</p>
+        <input type="text" placeholder = "address">
+        <input type="text" placeholder = "suburb" value="VIC">
+        <a href="#" id="submit" data-toggle="modal" data-target=".bs-example-modal-sm">Get Me There!</a>
+      </div>
 
-  <div id="map">
+      <div id="conference-address" class="col-xs-6 col-md-4">
+        <p><strong>Location</strong>: General Assembly</p>
+        <p><strong>Address</strong>: 12a/45 William St, Melbourne VIC 3000</p>
+        <p><strong>Phone</strong>:(03) 8592 7303</p>
+      </div>
+
+      <div id="map" class="col-xs-6 col-md-4">
+
+      </div>
+    </div>
 
   </div>
-
-  <div id="output"></div>
-<!-- route to google map api
-</li>
-<input type="text" placeholder = "address">
-<input type="text" placeholder = "suburb" value="VIC">
-<li><a href="#" id="submit" data-toggle="modal" data-target=".bs-example-modal-sm">Google Location</a></li> -->
-
 </section>

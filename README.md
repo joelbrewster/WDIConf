@@ -29,10 +29,18 @@ startDate  => DateTime.new(2009,9,1,17)
 ```
 - For the countdown timer we used [Countdown.js](http://countdownjs.org/).
 - Used [this reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/parse) to parse a string into a date object.
+- Rails doesnt render the line breaks automatically. We used a [text helper](http://api.rubyonrails.org/classes/ActionView/Helpers/TextHelper.html).
+
+```
+<td> <%= simple_format(project.project_description) %></td>
+```
+
+`simple_format`
+allows you to take line breaks from database (`\n`) and it renders `<br>` tags instead.
 
 ### Google Maps integration
 - Created a hardcoded address map with google maps from [google developers documentation](https://developers.google.com/maps/documentation/distance-matrix/intro#DistanceMatrixResponses).
-- Wanted to remove the [map navigation elements](https://developers.google.com/maps/documentation/javascript/examples/control-disableUI).
+- Wanted to remove the [map navigation elements](https://developers.google.com/maps/documentation/javascript/examples/control-disableUI) and add the map direction section to the bottom of the page.
 
 ### CSS Frontend
 - Added a carousel at the top of the page to display different parts of each project.
@@ -44,6 +52,7 @@ startDate  => DateTime.new(2009,9,1,17)
 - Added some images from [here](https://www.behance.net/laylow) to link with the synthwave/synthpop/cyberpunk theme.
 - Added [https://codepen.io/simeydotme/pen/jgcvi](glitter) style overlay to player image profiles because glitter is awesome.
 - Added a [http://codepen.io/SitePoint/pen/MwNPVq](javascript countdown clock) in the navbar partial.
+- Added a countdown clock to the hero page.
 
 ### Layouts
 - Opted for a single page layout (minus the booking page) with a static header.
