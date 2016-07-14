@@ -3,8 +3,11 @@ Rails.application.routes.draw do
 get '/' => 'conferences#index'
 patch '/seats/update' => 'conferences#update'
 
+get '/projects' => 'projects#index'
+
+get '/presenters' => 'presenters#index'
 get '/presenters/new' => 'presenters#new_presenter'
-post '/presenters/create' => 'presenters#create_presenters'
+post '/presenters/create' => 'presenters#create_presenter'
 get '/presenters/:id/edit' => 'presenters#edit_presenter'
 patch 'presenters/:id/update' => 'presenters#update_presenter'
 get 'presenters/:id/delete' => 'presenters#delete_presenter'

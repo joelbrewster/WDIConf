@@ -13,6 +13,7 @@
 #  created_at          :datetime         not null
 #  updated_at          :datetime         not null
 #  conference_id       :integer
+#  project_image4      :string
 #
 
 class Project < ActiveRecord::Base

@@ -29,7 +29,8 @@
 	border: 1px solid white;
 }
 .navbar-right {
-	margin-top: 15px;
+	background: #8f2bfa;
+	margin-top: 6px;
 }
 footer {
 	width: 100%
