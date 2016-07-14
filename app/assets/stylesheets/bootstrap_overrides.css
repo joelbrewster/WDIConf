@@ -96,6 +96,22 @@ h4,h5 {
   margin-top: 0.3em;
 }
 
+
+
+
+
+/*RESPONSIVE STUFF*/
+@media (max-width: 768px) {
+.navbar-right {
+	margin-top: 0;
+	margin-bottom: 15px;
+}
+
+.projects-slider-height{
+	height: 500px;
+}
+
+
 .sparkley {
   background: lighten( $buttonBackground , 10% );
   color: $buttonColor;
@@ -114,17 +130,11 @@ h4,h5 {
     background: $buttonBackground;
     color: transparentize( $buttonColor,0.8 );
   }
-}
 
 
 
-/*RESPONSIVE STUFF*/
-@media (max-width: 768px) {
-.navbar-right {
-	margin-top: 0;
-	margin-bottom: 15px;
-}
 
-.projects-slider-height{
-	height: 500px;
+
+
+
 }
