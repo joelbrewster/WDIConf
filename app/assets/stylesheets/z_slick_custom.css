@@ -1,0 +1,138 @@
+/* slick overrides */
+.slider {
+    /*position: absolute;*/
+    z-index: 1;
+    /*width: 100%;*/
+    margin: 0px auto;
+}
+
+.fade {
+    opacity: .3;
+}
+
+.slick-slide {
+    margin: 0;
+}
+.slick-slide img {
+    width: 100%;
+}
+.slick-prev,
+.slick-next
+{
+    font-size: 0;
+    line-height: 0;
+
+    position: absolute;
+    top: 50%;
+
+    display: block;
+
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    margin-top: -10px\9; /*lte IE 8*/
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+
+    cursor: pointer;
+
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus
+{
+    color: transparent;
+    outline: none;
+    background: transparent;
+}
+.slick-prev:hover:before,
+.slick-prev:focus:before,
+.slick-next:hover:before,
+.slick-next:focus:before
+{
+    opacity: 1;
+}
+.slick-prev.slick-disabled:before,
+.slick-next.slick-disabled:before
+{
+    opacity: .25;
+}
+
+.slick-prev:before,
+.slick-next:before
+{
+    font-family: 'slick';
+    font-size: 30px;
+    line-height: 1;
+
+    opacity: .75;
+    color: black;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-prev
+{
+	z-index:100;
+    left: -55px;
+
+}
+[dir='rtl'] .slick-prev
+{
+    right: -25px;
+    left: auto;
+}
+.slick-prev:before
+{
+    content: '←';
+}
+[dir='rtl'] .slick-prev:before
+{
+    content: '→';
+}
+
+.slick-next
+{
+    right: -55px;
+}
+[dir='rtl'] .slick-next
+{
+    right: auto;
+    left: -25px;
+}
+.slick-next:before
+{
+    content: '→';
+}
+[dir='rtl'] .slick-next:before
+{
+    content: '←';
+}
+/*section#project2 {
+  margin-top: 500px;
+}*/
+
+.slick-prev:before {
+  font-family: 'Passion One', cursive;
+  font-weight: 400;
+  content: "<";
+  color: black;
+  font-size: 70px;
+  font-weight: 800;
+}
+
+.slick-next:before {
+  font-family: 'Passion One', cursive;
+  font-weight: 400;
+  content: ">";
+  color: black;
+  font-size: 70px;
+  font-weight: 800;
+}

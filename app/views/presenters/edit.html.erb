@@ -1,0 +1,78 @@
+<%= render 'nav' %>
+
+<body>
+  <br>
+  <br>
+  <br>
+  <br>
+    <%= form_for @presenter do |f| %>
+    <table>
+      <tbody>
+        <tr>
+          <td>
+            Name:
+          </td>
+          <td>
+            <%= f.text_field :presenter_name %>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Title:
+          </td>
+          <td>
+            <%= f.text_field :presenter_title %>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            ImageURL:
+          </td>
+          <td>
+            <%= f.text_field :presenter_image %>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Social:
+          </td>
+          <td>
+            <%= f.text_field :presenter_social %>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            GitHub:
+          </td>
+          <td>
+            <%= f.text_field :presenter_github %>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Skills:
+          </td>
+          <td>
+            <%= @presenter.presenter_skills %>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Project ID:
+          </td>
+          <td>
+            <%= f.text_field :project_id %>
+          </td>
+        </tr>
+        <tr>
+          <td>
+          </td>
+          <td>
+            <%= f.submit %>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <% end %>
+</body>
+</html>

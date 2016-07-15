@@ -1,3 +1,5 @@
+
+
 <section id="project2">
     <div class="container">
         <div class="project-content-layers">
@@ -21,7 +23,7 @@
             </div>
 
             <hr>
-            <div class="regular slider">
+            <div class="regular2 slider1">
                 <div>
                     <div><%= image_tag "projects/p_01_logo.png"  %></div>
                 </div>
@@ -37,3 +39,18 @@
         </div>
     </div>
 </section>
+
+
+<script type="text/javascript">
+$(".regular2").slick({
+  dots: true,
+  infinite: true,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+});
+
+$('.block').hover(function(){
+  $('.slider1').toggleClass('fade');
+});
+
+</script>
