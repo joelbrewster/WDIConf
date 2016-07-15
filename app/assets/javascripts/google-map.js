@@ -31,11 +31,11 @@ $(function(){
         directionsDisplay.setDirections(response);
       }
     });
-    google.maps.event.trigger(map, 'resize');
-    map.setCenter({
-      lat: -37.813155,
-      lng: 144.964078
-    });
+    // google.maps.event.trigger(map, 'resize');
+    // map.setCenter({
+    //   lat: -37.813155,
+    //   lng: 144.964078
+    // });
   }
 
   function initMap() {

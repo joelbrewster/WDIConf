@@ -15,6 +15,8 @@
       <div class="column 7"><i class="fa fa-wheelchair-alt"></i></div>
       <div class="column 8"><i class="fa fa-wheelchair-alt"></i></div>
       <div class="column 9"><i class="fa fa-wheelchair-alt"></i></div>
+      <div class="empty">path</div>
+      <div class="empty">path</div>
       <div class="column 10"><i class="fa fa-wheelchair-alt"></i></div>
       <div class="column 11"><i class="fa fa-wheelchair-alt"></i></div>
       <div class="column 12"><i class="fa fa-wheelchair-alt"></i></div>
@@ -37,6 +39,8 @@
       <div class="column 7"><i class="fa fa-user"></i></div>
       <div class="column 8"><i class="fa fa-user"></i></div>
       <div class="column 9"><i class="fa fa-user"></i></div>
+      <div class="empty">path</div>
+      <div class="empty">path</div>
       <div class="column 10"><i class="fa fa-user"></i></div>
       <div class="column 11"><i class="fa fa-user"></i></div>
       <div class="column 12"><i class="fa fa-user"></i></div>
@@ -59,6 +63,8 @@
       <div class="column 7"><i class="fa fa-user"></i></div>
       <div class="column 8"><i class="fa fa-user"></i></div>
       <div class="column 9"><i class="fa fa-user"></i></div>
+      <div class="empty">path</div>
+      <div class="empty">path</div>
       <div class="column 10"><i class="fa fa-user"></i></div>
       <div class="column 11"><i class="fa fa-user"></i></div>
       <div class="column 12"><i class="fa fa-user"></i></div>
@@ -81,6 +87,8 @@
       <div class="column 7"><i class="fa fa-user"></i></div>
       <div class="column 8"><i class="fa fa-user"></i></div>
       <div class="column 9"><i class="fa fa-user"></i></div>
+      <div class="empty">path</div>
+      <div class="empty">path</div>
       <div class="column 10"><i class="fa fa-user"></i></div>
       <div class="column 11"><i class="fa fa-user"></i></div>
       <div class="column 12"><i class="fa fa-user"></i></div>
@@ -103,6 +111,8 @@
       <div class="column 7"><i class="fa fa-user"></i></div>
       <div class="column 8"><i class="fa fa-user"></i></div>
       <div class="column 9"><i class="fa fa-user"></i></div>
+      <div class="empty">path</div>
+      <div class="empty">path</div>
       <div class="column 10"><i class="fa fa-user"></i></div>
       <div class="column 11"><i class="fa fa-user"></i></div>
       <div class="column 12"><i class="fa fa-user"></i></div>
@@ -125,6 +135,8 @@
       <div class="column 7"><i class="fa fa-user"></i></div>
       <div class="column 8"><i class="fa fa-user"></i></div>
       <div class="column 9"><i class="fa fa-user"></i></div>
+      <div class="empty">path</div>
+      <div class="empty">path</div>
       <div class="column 10"><i class="fa fa-user"></i></div>
       <div class="column 11"><i class="fa fa-user"></i></div>
       <div class="column 12"><i class="fa fa-user"></i></div>
@@ -147,6 +159,8 @@
       <div class="column 7"><i class="fa fa-user"></i></div>
       <div class="column 8"><i class="fa fa-user"></i></div>
       <div class="column 9"><i class="fa fa-user"></i></div>
+      <div class="empty">path</div>
+      <div class="empty">path</div>
       <div class="column 10"><i class="fa fa-user"></i></div>
       <div class="column 11"><i class="fa fa-user"></i></div>
       <div class="column 12"><i class="fa fa-user"></i></div>
@@ -169,6 +183,8 @@
       <div class="column 7"><i class="fa fa-user"></i></div>
       <div class="column 8"><i class="fa fa-user"></i></div>
       <div class="column 9"><i class="fa fa-user"></i></div>
+      <div class="empty">path</div>
+      <div class="empty">path</div>
       <div class="column 10"><i class="fa fa-user"></i></div>
       <div class="column 11"><i class="fa fa-user"></i></div>
       <div class="column 12"><i class="fa fa-user"></i></div>
@@ -191,6 +207,8 @@
       <div class="column 7"><i class="fa fa-user"></i></div>
       <div class="column 8"><i class="fa fa-user"></i></div>
       <div class="column 9"><i class="fa fa-user"></i></div>
+      <div class="empty">path</div>
+      <div class="empty">path</div>
       <div class="column 10"><i class="fa fa-user"></i></div>
       <div class="column 11"><i class="fa fa-user"></i></div>
       <div class="column 12"><i class="fa fa-user"></i></div>
@@ -213,6 +231,8 @@
       <div class="column 7"><i class="fa fa-user"></i></div>
       <div class="column 8"><i class="fa fa-user"></i></div>
       <div class="column 9"><i class="fa fa-user"></i></div>
+      <div class="empty">path</div>
+      <div class="empty">path</div>
       <div class="column 10"><i class="fa fa-user"></i></div>
       <div class="column 11"><i class="fa fa-user"></i></div>
       <div class="column 12"><i class="fa fa-user"></i></div>
@@ -224,13 +244,15 @@
       <div class="column 18"><i class="fa fa-user"></i></div>
       <div class="column 19"><i class="fa fa-user"></i></div>
     </div>
+  </div>
+  <div class="message-board">
     <h1 id="ticket-price">Total price is: $0.00</h1>
     <h1 id="ticket-count">Total number of seats: 0</h1>
-  </div>
-  <%= form_tag '/seats/update', method: :patch do %>
+    <%= form_tag '/seats/update',:class=>"seats-submit-btn", method: :patch do %>
     <%= hidden_field_tag :seats_booked, @conference[0].seats_booked %>
-  <%= submit_tag 'Submit' %>
-  <% end %>
+    <%= submit_tag 'Book Now' ,:class => "btn btn-warning", :id=>"submit-btn" %>
+    <% end %>
+  </div>
 
 </div>
 </section>

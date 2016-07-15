@@ -77,9 +77,11 @@ for(var i = 0; i < seats.length; i ++){
     // To reject overwriting any grid that already has been clicked
     if (chosenSeatsCount < 6){
       if (seats[rowIndex][columnIndex] === 0){
-        $(this).children().css('color', 'blue');
+        // $(this).children().css('color', 'blue');
+        console.log($(this).children());
+        $(this).children().attr("id", "i-choose-you");
         seats[rowIndex][columnIndex] = 1;
-        chosenSeatsCount += 1;
+        chosenSeatsCount += 1
         var clickedSeat = rowIndex + "." + columnIndex;
         chosenSeats.push(clickedSeat);
         $('#seats_booked').val(chosenSeats.join(" "));
@@ -91,7 +93,9 @@ for(var i = 0; i < seats.length; i ++){
         messagePrice.text("Total price is: $" + totalPrice + ".00");
         messageCount.text("Total number of seats: " + chosenSeatsCount);
       } else if (seats[rowIndex][columnIndex] === 1){
-        $(this).children().css('color', 'grey');
+        $(this).children().removeAttr('id');
+
+        // $(this).children().css('color', 'grey');
         seats[rowIndex][columnIndex] = 0;
         var clickedSeat = rowIndex + "." + columnIndex;
         chosenSeats.splice(chosenSeats.indexOf(clickedSeat), 1);
@@ -110,7 +114,9 @@ for(var i = 0; i < seats.length; i ++){
       }
     } else {
       if (seats[rowIndex][columnIndex] === 1){
-        $(this).children().css('color', 'grey');
+        $(this).children().removeAttr('id');
+
+        // $(this).children().css('color', 'grey');
         seats[rowIndex][columnIndex] = 0;
         var clickedSeat = rowIndex + "." + columnIndex;
         $('#seats_booked').val(chosenSeats.join(" "));
@@ -131,16 +137,16 @@ for(var i = 0; i < seats.length; i ++){
   });
 
 // When submit button is clicked, this will finalize
-  $('#submit-btn').on('click', function(){
-    event.preventDefault();
-    for(var i = 0; i < seats.length; i ++){
-      for(var y = 0; y <seats[i].length; y++){
-        if(seats[i][y] !== 0){
-          finalSeats = finalSeats + [i] + "." + [y] + " ";
-        }
-      }
-    }
-    console.log(finalSeats);
-    console.log('submit button is clicked');
-  });
+  // $('#submit-btn').on('click', function(){
+  //   event.preventDefault();
+  //   for(var i = 0; i < seats.length; i ++){
+  //     for(var y = 0; y <seats[i].length; y++){
+  //       if(seats[i][y] !== 0){
+  //         finalSeats = finalSeats + [i] + "." + [y] + " ";
+  //       }
+  //     }
+  //   }
+  //   console.log(finalSeats);
+  //   console.log('submit button is clicked');
+  // });
 });

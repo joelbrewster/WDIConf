@@ -1,4 +1,7 @@
 
+#i-choose-you {
+  color: blue;
+}
 
 .fa-wheelchair-alt {
   height: 25px;
@@ -9,7 +12,7 @@
 .fa-user {
   height: 25px;
   width: 25px;
-  color: grey;
+  color: rgb(231, 149, 164);
 }
 
 #front-screen{
@@ -17,20 +20,39 @@
   padding: 10px;
   background-color: grey;
   margin-bottom: 30px;
+  text-align: center;
+  font-size: 18px;
 }
 
-.premium-rows{
-  background-color: red;
+.premium-rows .fa-user {
+  color: rgb(154, 68, 83);
+}
+
+
+.empty {
+  color: transparent;
+  width: 25px;
 }
 
 #board{
   margin: 0 auto;
-  height: 500px;
-  width: 500px;
+  height: 300px;
+  width: 550px;
+  padding-top: 20px;
   top: 10%;
   position: relative;
+  text-align: center;
 }
 
+#submit-btn{
+    background: rgb(207, 73, 202);
+}
+
+
+.message-board {
+  text-align: center;
+  color:white;
+}
 
 
 #conference-address {
@@ -82,7 +104,7 @@
 .booking-row {
   display: flex;
   height: 25px;
-  width: 500px;
+  width: 550px;
 }
 
 .column {
@@ -92,7 +114,7 @@
   font-size: 25px;
 }
 
-#ticket-price {
+/*#ticket-price {
   position: relative;
   bottom: 0%;
-}
+}*/
