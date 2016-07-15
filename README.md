@@ -54,6 +54,31 @@ allows you to take line breaks from database (`\n`) and it renders `<br>` tags i
 - Added a [http://codepen.io/SitePoint/pen/MwNPVq](javascript countdown clock) in the navbar partial.
 - Added a countdown clock to the hero page.
 
+#### Project Quips
+
+##### Queuer
+```
+Queuer is a restauraunt & cafe waiting app taking the catering and hospitality world by storm.
+
+The average person will spend 6 months of their life in some form of a queue, from traffic lights to supermarkets to cafes.
+
+With over 28,000 venues across 43 countries, people of the world are finally winning back their precious time thanks to Queuer.
+
+A Melbourne based success story, Queuer is a Queue Cure™ that waits in line for you, so you can get busy doing other fun stuff!
+```
+
+##### Pulse Express
+```
+With Pulse express, it's easy to find the right music to sex up your screen. Just press play!
+
+There are millions of sexy singles near you using Pulse Express. So whether you're working out in front of your computer, partying or relaxing in front of your computer, the sexy screen and music is always at your fingertips. Choose what you want to listen to and like, just look at the screen...
+
+You can also browse through the music collections of friends because we haven't got oath working with that.
+
+Soundtrack your life with Pulse App. Log in with github.
+```
+
+
 ### Layouts
 - Opted for a single page layout (minus the booking page) with a static header.
 - Divided the index page into partials and divvied up the front end to a few members.
