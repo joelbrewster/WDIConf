@@ -1,6 +1,6 @@
 /* slick overrides */
 .slider {
-    position: absolute;
+    /*position: absolute;*/
     z-index: 0;
     width: 100%;
     margin: 50px auto;
@@ -111,8 +111,11 @@
 {
     content: '←';
 }
+/*section#project2 {
+  margin-top: 500px;
+}*/
 
-/*.slick-prev:before {
+.slick-prev:before {
   font-family: 'Passion One', cursive;
   font-weight: 400;
   content: "<";
@@ -128,4 +131,4 @@
   color: black;
   font-size: 70px;
   font-weight: 800;
-}*/
+}
