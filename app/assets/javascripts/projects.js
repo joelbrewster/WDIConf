@@ -4,9 +4,6 @@ $(document).ready(function(){
 
 var projectTitle = $('<h1>').text('TITLE');
 
-$('.block').hover(function(){
-  $('.slider div').toggleClass('fade');
-});
 
 
 // when click on project poster - show slider and close button
