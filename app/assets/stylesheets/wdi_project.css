@@ -1,4 +1,12 @@
+.testimonial-content p{
+  font-size: 45px;
+  color: #5900b9;
+	font-weight: 200;
+	margin-bottom: 40px;
+	line-height: 1.2em;
+	letter-spacing: 1px;
 
+}
 .block {
   display: flex;
   justify-content: center;
