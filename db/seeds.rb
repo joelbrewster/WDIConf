@@ -32,7 +32,7 @@ There are millions of sexy  singles neaar you using Pulse Express. So whether yo
 You can also browse through the music collections of friends because we haven't got oath working with that.
 
 Soundtrack your life with Pulse App. Log in with GitHub.",
-    project_time: DateTime.new(2016,7,17,0),
+    project_time: DateTime.new(2016,7,16,23,50),
     project_image1: "projects/p_01_logo.png",
     project_image2: "projects/p_02_pulse.png",
     project_image3: "projects/p_03_computer.png",
