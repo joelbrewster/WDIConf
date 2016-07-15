@@ -167,3 +167,7 @@ font-weight: bolder;
   display: block;
   height: 5000px;
 }
+
+#sponsors a {
+  color: rgba(219, 45, 62, 0.0)
+}
