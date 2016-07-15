@@ -179,3 +179,7 @@ font-weight: bolder;
 #sponsors a {
   color: rgba(219, 45, 62, 0.0)
 }
+
+#timetable {
+  margin: 0 auto;
+}
