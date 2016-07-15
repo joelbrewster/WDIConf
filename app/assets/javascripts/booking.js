@@ -59,7 +59,7 @@ for(var i = 0; i < seats.length; i ++){
       var splitIndex = paidSeatsIndex[i].split(".");
       seats[splitIndex[0]][splitIndex[1]] = 2;
 
-      $('.' + splitIndex[0] + ' .' + splitIndex[1] + ' i').css('color', 'black');
+      $('.' + splitIndex[0] + ' .' + splitIndex[1] + ' i').css('color', 'grey');
 
 
     }
