@@ -23,7 +23,7 @@
             </div>
 
             <hr>
-            <div class="regular2 slider">
+            <div class="regular2 slider1">
                 <div>
                     <div><%= image_tag "projects/p_01_logo.png"  %></div>
                 </div>
@@ -47,6 +47,10 @@ $(".regular2").slick({
   infinite: true,
   slidesToShow: 1,
   slidesToScroll: 1,
+});
+
+$('.block').hover(function(){
+  $('.slider1').toggleClass('fade');
 });
 
 </script>

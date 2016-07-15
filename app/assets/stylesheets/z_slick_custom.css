@@ -1,11 +1,15 @@
 /* slick overrides */
 .slider {
     /*position: absolute;*/
-    z-index: 0;
-    width: 100%;
-    margin: 50px auto;
-
+    z-index: 1;
+    /*width: 100%;*/
+    margin: 0px auto;
 }
+
+.fade {
+    opacity: .3;
+}
+
 .slick-slide {
     margin: 0;
 }
