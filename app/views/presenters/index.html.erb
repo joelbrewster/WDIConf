@@ -1,5 +1,4 @@
 <%= render 'nav' %>
-<%= render 'hero' %>
     <body>
         <h1>
             Presenter Details
@@ -15,6 +14,8 @@
                 <!-- <th>created_at</th> -->
                 <!-- <th>updated_at</th> -->
                 <th>project_id</th>
+                <th>Edit</th>
+                <th>Delete</th>
             </thead>
             <tbody>
                 <% @presenters.each do |presenter| %>
@@ -33,8 +34,11 @@
                     <!-- <td><% presenter.created_at %></td>
                     <td><% presenter.updated_at %></td> -->
                     <td><%= presenter.project_id %></td>
+                    <td><a href="/presenters/<%= presenter.id %>/edit">Edit</a></td>
+                    <td><a href="/presenters/<%= presenter.id %>/delete">Delete</a></td>
                 <% end %>
             </tbody>
         </table>
+        
     </body>
 </html>

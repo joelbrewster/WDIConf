@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+resources :presenters
+
 get '/' => 'conferences#index'
 patch '/seats/update' => 'conferences#update'
 
