@@ -21,5 +21,9 @@ $(".regular").slick({
 });
 
 
+$(".project1.project-content-layers.regular.slick-list.slick-track")
+  .css('border-style','solid')
+
+
 
 });// doc ready end

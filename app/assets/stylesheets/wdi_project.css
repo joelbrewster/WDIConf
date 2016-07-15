@@ -4,11 +4,10 @@
   justify-content: center;
   flex-flow: column;
   width: 100%;
-  height: 850px;
+  height: 700px;
   margin: 80px auto;
   position: absolute;
   z-index: 2;
-  /*border: 1px solid red;*/
 }
 
 .block div{
@@ -236,14 +235,12 @@ font-weight: bolder;
   font-weight: 800;
 }
 
+
 /*RESPONSIVE STUFF*/
 @media (max-width: 768px) {
 
-  /*.block {
-    display: none;
-  }*/
-
   .project-into-text{
+    opacity: 1;
     font-size: 10px;
     padding: 0 20px;
     line-height: 10px;
@@ -276,7 +273,7 @@ font-weight: bolder;
     padding: 0;
     width: auto;
     margin: 0 auto;
-    position: absolute;
+    position: relative;
     z-index: 2;
     /*border: 1px solid red;*/
   }
@@ -284,7 +281,21 @@ font-weight: bolder;
   .theteam {
     margin-bottom:5px;
     }
-  }
 
+    .pic {
+      text-align: center;
+      display: flex;
+      flex-flow: column;
+      margin: 0 20px 30px 20px;
+      opacity: 1;
+    }
+
+    .block:hover .pic {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    .fade {
+        opacity: 1;
+    }
 
 }
