@@ -6,7 +6,7 @@
 .fa-wheelchair-alt {
   height: 25px;
   width: 25px;
-  color: grey;
+  color: goldenrod;
 }
 
 .fa-user {
@@ -15,6 +15,10 @@
   color: rgb(231, 149, 164);
 }
 
+.booking-div {
+  background-color: rgba(0,0,0,0.7);
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
 #front-screen{
   margin: 10px;
   padding: 10px;
@@ -46,6 +50,7 @@
 
 #submit-btn{
     background: rgb(207, 73, 202);
+    margin: 20px;
 }
 
 
@@ -114,7 +119,12 @@
   font-size: 25px;
 }
 
-/*#ticket-price {
-  position: relative;
-  bottom: 0%;
-}*/
+#ticket-price {
+  margin: 0;
+  color: white;
+}
+
+#ticket-count {
+  margin: 0;
+  color:white;
+}
