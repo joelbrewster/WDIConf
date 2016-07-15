@@ -3,13 +3,29 @@
 ## Workload
 ### Pre rails (Partials and Static Layout).
 - Divided up sections for the hero, information, booking, project sections and a booking page.
+- Drew up layouts on whiteboard, and divided up partials to work on.
+
+#### Whiteboard brainstorming
+![Role deligation](./app/assets/images/layout1.jpg)
+![Initial layout overview](./app/assets/images/layout2.jpg)
+![Booking page idea](./app/assets/images/layout3.jpg)
+![Model brainstorm](./app/assets/images/layout4.jpg)
+![Model brainstorm](./app/assets/images/layout5.jpg)
+![File tree](./app/assets/images/layout6.jpg)
+![Bootstrap style layout](./app/assets/images/layout7.jpg)
+![Booking page ideas](./app/assets/images/layout8.jpg)
 - Layout done in Balsamiq.
+
+#### Balsamiq layout
+![Balsamiq layout](./app/assets/images/balsamiq.jpg)
 
 ### Git control
 - Decided on having a gitlord with forked projects that would send pull requests to minimize merge problems.
 - Added rails project.
 - Added partials.
 - Fixed up gitignore.
+- Added css.
+- Added javascript libraries.
 
 ### Rails, database and backend
 - Added presenter models, routes and database.
@@ -95,18 +111,6 @@ Soundtrack your life with Pulse App. Log in with github.
 ### Resources
 - Added profile pictures.
 - Added project carousels with profile overlays.
-
-
-### Whiteboard brainstorming
-
-![Role deligation](./app/assets/images/layout1.jpg)
-![Initial layout overview](./app/assets/images/layout2.jpg)
-![Booking page idea](./app/assets/images/layout3.jpg)
-![Model brainstorm](./app/assets/images/layout4.jpg)
-![Model brainstorm](./app/assets/images/layout5.jpg)
-![File tree](./app/assets/images/layout6.jpg)
-![Bootstrap style layout](./app/assets/images/layout7.jpg)
-![Booking page ideas](./app/assets/images/layout8.jpg)
 
 
 ## Seed brainstorming
